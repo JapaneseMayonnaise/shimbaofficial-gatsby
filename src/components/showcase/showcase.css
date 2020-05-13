@@ -1,0 +1,10 @@
+/* Without this, title and tech stack tags are too close to the app title */
+.app-demo-title {
+   margin-bottom: 10px !important;
+}
+
+/* So that anything below nav bar won't go underneath the nav bar */
+/* somehow with Gatsby nav bar is on hight layer than other components */
+.same-layer {
+  position: static !important;
+}

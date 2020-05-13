@@ -1,0 +1,22 @@
+.brand-name {
+  /* font-family: 'Vollkorn', serif; */ 
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.medium-adjust {
+  font-size: 1.07rem;
+}
+
+.brand-name {
+  /* font-family: 'Vollkorn', serif; */ 
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.navbar-icons {
+  margin-left: 20px;
+}
+
+/* .same-layer {
+  position: absolute;
+  z-index: -50;
+} */

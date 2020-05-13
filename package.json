@@ -14,9 +14,29 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-regular-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "bulma": "^0.8.2",
     "gatsby": "^2.21.21",
+    "gatsby-plugin-emotion": "^4.3.1",
+    "gatsby-plugin-sass": "^2.3.1",
+    "gatsby-plugin-typography": "^2.5.1",
+    "gatsby-source-filesystem": "^2.3.3",
+    "node-sass": "^4.14.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19",
+    "typography-theme-github": "^0.16.19",
+    "typography-theme-lincoln": "^0.16.19",
+    "typography-theme-moraga": "^0.16.19",
+    "typography-theme-stow-lake": "^0.16.19",
+    "typography-theme-wordpress-2011": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "2.0.5"
