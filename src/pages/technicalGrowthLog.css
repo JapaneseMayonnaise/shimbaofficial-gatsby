@@ -1,0 +1,13 @@
+.margin-bottom {
+   margin-bottom: 20px;
+}
+
+#excerpt {
+   margin-bottom: 1rem;
+}
+
+.hr {
+   margin-top: 0.5rem;
+   color: #615e56;
+   height: 2px;
+}

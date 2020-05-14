@@ -29,7 +29,7 @@ export default function LatestPosts() {
       graphql` 
       query 
       {
-         allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+         allMarkdownRemark(limit: 6, sort: { fields: [frontmatter___date], order: DESC }) {
             totalCount
             edges {
             node {
@@ -53,8 +53,11 @@ export default function LatestPosts() {
          <section class="section bottom-section" id="growthLog-technical">
             <div class="container">
                <h1 class="title is-size-4-touch has-text-primary">
-                  Growth Log : {data.allMarkdownRemark.totalCount} posts
+                  Growth Log
                </h1>
+               <Link to="/technicalGrowthLog/">
+                  more posts >>>
+               </Link>
                <div class="columns is-multiline">
                      {data.allMarkdownRemark.edges.map(({ node }) => (
                         <Article 

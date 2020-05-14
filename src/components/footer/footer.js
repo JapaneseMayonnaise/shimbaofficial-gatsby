@@ -12,7 +12,10 @@ export default function Footer() {
             <hr className="hr" /> 
             <a href="https://bulma.io">
                <img src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="160" height="30" />
-            </a>   
+            </a>
+            {/* <a href="https://www.gatsbyjs.org">
+               <img src="https://www.gatsbyjs.org/Gatsby-Monogram.svg" alt="gatsby logo" width="30" />
+            </a> */}
          </div>
       </footer> 
    )

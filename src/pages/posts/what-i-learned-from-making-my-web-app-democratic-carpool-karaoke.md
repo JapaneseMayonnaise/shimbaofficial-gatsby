@@ -1,8 +1,7 @@
 ---
 title: "Lessons learned from making web app Democratic Carpool Karaoke"
-date: "2020-05-13"
+date: "2020-04-14"
 ---
-
 [Democratic Carpool Karaoke](https://democratic-carpool-karaoke.herokuapp.com/)
 
 ## What and why 

@@ -1,9 +1,8 @@
 ---
 title: "Lessons learned from making web app Smart Brain"
-date: "2020-05-10"
+date: "2020-04-14"
 ---
-
-# Lessons learned from making my web app [Smart Brain](https://drcardamom.github.io/smart-brain/)
+[Smart Brain](https://drcardamom.github.io/smart-brain/)
 
 [Source code for the view](https://github.com/DrCardamom/smart-brain)
 

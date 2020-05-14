@@ -1,7 +1,7 @@
-import Typography from 'typography'
-import wordpress2011Theme from 'typography-theme-wordpress-2011'
+import Typography from "typography"
+import gitHubTheme from "typography-theme-github"
 
-const typography = new Typography(wordpress2011Theme)
+const typography = new Typography(gitHubTheme)
 
 export const { scale, rhythm, options } = typography
 export default typography
