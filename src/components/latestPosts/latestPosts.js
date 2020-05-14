@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
+import './latestposts.css'
 import "../../../sass/mystyles.scss"
 
 export default function LatestPosts() {
@@ -50,12 +51,12 @@ export default function LatestPosts() {
    )
 
    return (
-         <section class="section bottom-section" id="growthLog-technical">
+         <section class="section bottom-section margin-top" id="growthLog-technical">
             <div class="container">
-               <h1 class="title is-size-4-touch has-text-primary">
-                  Growth Log
+               <h1 class="title is-size-4-touch has-text-primary inline">
+                  Growth Log &nbsp;
                </h1>
-               <Link to="/technicalGrowthLog/">
+               <Link to="/technicalGrowthLog/" class="subtitle is-size-5-touch has-text-primary">
                   more posts >>>
                </Link>
                <div class="columns is-multiline">

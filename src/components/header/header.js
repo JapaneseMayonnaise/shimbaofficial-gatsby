@@ -22,6 +22,14 @@ export default function Header() {
       `   
    )
 
+   const Icon = (props) => (
+      <span className="icon is-large navbar-icons {props.moreStyle}">
+         <a href={props.href}>
+            <FontAwesomeIcon icon={props.iconName} className="fab fa-2x has-text-link"/>
+         </a>
+      </span>
+   )
+
    return (
          <nav className="navbar is-spaced is-fixed-top same-layer" role="navigation" aria-label="main navigation">
              <div className="navbar-brand">
@@ -57,31 +65,26 @@ export default function Header() {
             
                <div className="navbar-end">
                   <div className="navbar-item">
-                     <span className="icon is-large navbar-icons">
-                     <a href="https://github.com/DrCardamom">
-                        <FontAwesomeIcon icon={faGithub} className="fab fa-2x has-text-link"/>
-                     </a>
-                     </span>
-                     <span className="icon is-large navbar-icons">
-                     <a href="https://www.linkedin.com/in/eshimba/">
-                     <FontAwesomeIcon icon={faLinkedinIn} className="fab fa-2x has-text-link"/>
-                     </a>
-                     </span>
-                     <span className="icon is-large medium-adjust navbar-icons">
-                     <a href="https://medium.com/@elliotshimba">
-                        <FontAwesomeIcon icon={faMediumM} className="fab fa-2x has-text-link"/>
-                     </a>
-                     </span>
-                     <span className="icon is-large navbar-icons">
-                     <a href="https://dev.to/drcardamom">
-                        <FontAwesomeIcon icon={faDev} className="fab fa-2x has-text-link"/>
-                     </a>
-                     </span>
-                     <span className="icon is-large navbar-icons">
-                     <a href="https://stackoverflow.com/users/11227880/shimba?tab=profile">
-                     <FontAwesomeIcon icon={faStackOverflow} className="fab fa-2x has-text-link"/>
-                     </a>
-                     </span>
+                     <Icon
+                           href="https://github.com/DrCardamom"
+                           iconName={faGithub}
+                     />                     
+                     <Icon
+                        href="https://www.linkedin.com/in/eshimba/"
+                        iconName={faLinkedinIn}
+                     />
+                     <Icon
+                        href="https://medium.com/@elliotshimba"
+                        iconName={faMediumM}
+                     />
+                     <Icon
+                        href="https://dev.to/drcardamom"
+                        iconName={faDev}
+                     />
+                     <Icon
+                        href="https://stackoverflow.com/users/11227880/shimba?tab=profile"
+                        iconName={faStackOverflow}
+                     />
                   </div>
                </div>
             </div>

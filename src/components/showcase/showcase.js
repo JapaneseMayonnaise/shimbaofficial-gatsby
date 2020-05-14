@@ -1,11 +1,16 @@
 import React from "react"
+import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faReact } from "@fortawesome/free-brands-svg-icons"
 import { faSpotify } from "@fortawesome/free-brands-svg-icons"
-import { faServer } from "@fortawesome/free-brands-svg-icons"
-import { faNodejs } from "@fortawesome/free-brands-svg-icons"
-import { faPlayCircle } from "@fortawesome/free-brands-svg-icons"
+import { faBookmark } from "@fortawesome/free-regular-svg-icons"
+import { faPlayCircle } from "@fortawesome/free-regular-svg-icons"
+import { faServer } from "@fortawesome/free-solid-svg-icons"
+import { faCodeBranch } from "@fortawesome/free-solid-svg-icons"
+
+import { faNodeJs } from "@fortawesome/free-brands-svg-icons"
+import { faDatabase } from "@fortawesome/free-solid-svg-icons"
 import "../../../sass/mystyles.scss"
 import './showcase.css'
 
@@ -29,30 +34,30 @@ export default function Showcase () {
                   Democratic Carpool Karaoke
                   <span className="icon">
                      <a href="https://democratic-carpool-karaoke.herokuapp.com/">
-                        <FontAwesomeIcon icon={faPlayCircle} className="fab has-text-link"/>
+                        <FontAwesomeIcon icon={faPlayCircle} className="fab has-text-link size" />
                      </a>
                   </span>
                   <span className="icon">
                      <a href="https://github.com/DrCardamom/democratic-carpool-karaoke">
-                       <FontAwesomeIcon icon={faGithub} className="fab has-text-link"/>
+                       <FontAwesomeIcon icon={faGithub} className="fab has-text-link size" />
                      </a>
                   </span>
                </h1>
                <div className="tags  is-marginless">
                   <span className="tag is-primary is-light">
-                        <FontAwesomeIcon icon={faReact} className="fab has-text-link"/>
+                        <FontAwesomeIcon icon={faReact} />  
                         &nbsp; React.js
                   </span>
                   <span className="tag is-primary is-light">
-                        <FontAwesomeIcon icon={faNodejs} className="fab has-text-link"/>
+                        <FontAwesomeIcon icon={faNodeJs} />
                         &nbsp; Node.js
                   </span>
                   <span className="tag is-primary is-light">
-                        <FontAwesomeIcon icon={faServer} className="fab has-text-link"/>
+                        <FontAwesomeIcon icon={faServer} />
                         &nbsp; Heroku
                   </span>
                   <span className="tag is-primary is-light">
-                        <FontAwesomeIcon icon={faSpotify} className="fab has-text-link"/>
+                        <FontAwesomeIcon icon={faSpotify} />
                         &nbsp; Spotify API
                   </span>
                </div>
@@ -63,7 +68,11 @@ export default function Showcase () {
                      Give it a try!
                   </p>
                   <p>
-                     Also read &nbsp; <a className="has-text-link"><i className="fas fa-bookmark"></i>&nbsp;Lessons learned from making web app "Democratic Carpool Karaoke"</a>
+                     Also read &nbsp;
+                  <Link to="/what-i-learned-from-making-my-web-app-democratic-carpool-karaoke/ "className="has-text-link">
+                     <FontAwesomeIcon icon={faBookmark} className="fab has-text-link"/>
+                     &nbsp;Lessons learned from making web app "Democratic Carpool Karaoke"
+                  </Link>
                   </p>
                </div>
                </div>
@@ -85,25 +94,35 @@ export default function Showcase () {
                   RoboRedux
                   <span className="icon">
                      <a href="https://drcardamom.github.io/RoboRedux/">
-                     <i className="far fa-play-circle"></i>                  
+                        <FontAwesomeIcon icon={faPlayCircle} className="has-text-link size" />
                      </a>
-                  </span> 
+                  </span>
                   <span className="icon">
                      <a href="https://github.com/DrCardamom/RoboRedux">
-                     <i className="fab fa-github has-text-link"></i>
+                       <FontAwesomeIcon icon={faGithub} className="has-text-link size" />
                      </a>
-                  </span> 
+                  </span>
                </h1>
                <div className="tags  is-marginless">
-                  <span className="tag is-primary is-light"><i className="fab fa-react"></i> &nbsp; React.js</span>
-                  <span className="tag is-primary is-light"><i className="fab fa-react"></i> &nbsp; Redux.js</span>
+                  <span className="tag is-primary is-light">
+                        <FontAwesomeIcon icon={faReact} />
+                        &nbsp; React.js
+                  </span>                 
+                  <span className="tag is-primary is-light">
+                        <FontAwesomeIcon icon={faReact} />
+                        &nbsp; Redux.js
+                  </span>                    
                </div>
                <div className="content">
                   <p>
                      Mini robo search engine powered by React.js and Redux.js. Logs changes of the state using Redux-logger and handle API call with Redux-thunk.
                   </p>
-                  <p>              
-                     Also read &nbsp; <a href="" className="has-text-link"><i className="fas fa-bookmark"></i>&nbsp; Lessons learned from Redux.js</a>
+                  <p>
+                     Also read &nbsp;
+                  <Link to="/Intro-to-Redux/ "className="has-text-link">
+                     <FontAwesomeIcon icon={faBookmark} className="fas has-text-link"/>
+                     &nbsp; What is Redux.js?
+                  </Link>
                   </p>
                </div>
                </div>
@@ -124,26 +143,38 @@ export default function Showcase () {
                <h1 className="title is-4 app-demo-title">
                   Smart Brain
                   <span className="icon">
-                     <a href="https://drcardamom.github.io/smart-brain/">
-                     <i className="far fa-play-circle"></i>                  
+                     <a href="https://drcardamom.github.io/RoboRedux/">
+                        <FontAwesomeIcon icon={faPlayCircle} className="has-text-link size" />
                      </a>
-                  </span>  
+                  </span>
                   <span className="icon">
                      <a href="https://github.com/DrCardamom/smart-brain">
-                     <i className="fab fa-github has-text-link"></i>
+                       <FontAwesomeIcon icon={faGithub} className="has-text-link size" />
                      </a>
                   </span>
                   <span className="icon">
                      <a href="https://github.com/DrCardamom/smart-brain-api">
-                     <i className="fab fa-github has-text-link"></i>
+                       <FontAwesomeIcon icon={faGithub} className="has-text-link size" />
                      </a>
                   </span>
                </h1>
                <div className="tags  is-marginless">
-                  <span className="tag is-primary is-light"><i className="fab fa-react"></i> &nbsp; React.js</span>
-                  <span className="tag is-primary is-light"><i className="fab fa-node-js"></i> &nbsp; Node.js</span>
-                  <span className="tag is-primary is-light"><i className="fas fa-database"></i> &nbsp; PostgreSQL</span>
-                  <span className="tag is-primary is-light"><i className="fas fa-code-branch"></i> &nbsp; Clarifai AI API</span>
+                  <span className="tag is-primary is-light">
+                        <FontAwesomeIcon icon={faReact} />
+                        &nbsp; React.js
+                  </span>                 
+                  <span className="tag is-primary is-light">
+                        <FontAwesomeIcon icon={faNodeJs} />
+                        &nbsp;  Node.js
+                  </span>                 
+                  <span className="tag is-primary is-light">
+                        <FontAwesomeIcon icon={faDatabase} />
+                        &nbsp; PostgreSQL
+                  </span>                 
+                  <span className="tag is-primary is-light">
+                        <FontAwesomeIcon icon={faCodeBranch} />
+                        &nbsp; Clarifai AI API
+                  </span>                 
                </div>
                <div className="content">
                   <p>
@@ -151,7 +182,11 @@ export default function Showcase () {
                      This app works with AI-powered API and stores user data in PostgreSQL database hosted on Heroku. 
                   </p>
                   <p>
-                     Also read &nbsp; <a href="" className="has-text-link"><i className="fas fa-bookmark"></i>&nbsp;Lessons learned from making web app "Smart Brain"</a>
+                     Also read &nbsp;
+                  <Link to="/what-i-learned-from-making-my-web-app-smart-brain/" className="has-text-link">
+                     <FontAwesomeIcon icon={faBookmark} className="fas has-text-link"/>
+                     &nbsp; Lessons learned from making web app "Smart Brain"
+                  </Link>
                   </p>
                </div>
                </div>

@@ -8,3 +8,11 @@
 .same-layer {
   position: static !important;
 }
+
+.icon {
+  margin-left: 0.5rem;
+}
+
+.size {
+  font-size: 1.4rem;
+}
