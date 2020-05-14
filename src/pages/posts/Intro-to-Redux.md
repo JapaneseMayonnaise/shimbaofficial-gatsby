@@ -1,6 +1,6 @@
 ---
-title: "What is Redux.js"
-date: "2020-03-20"
+title: "How to Redux.js"
+date: "2020-04-20"
 ---
 
 [RoboRedux](https://drcardamom.github.io/RoboRedux/)
