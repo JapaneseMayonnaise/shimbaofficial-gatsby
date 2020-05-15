@@ -17,3 +17,7 @@ p {
 pre {
    margin: 10px 0;
 }
+
+a:hover {
+   color: #138000;
+}
