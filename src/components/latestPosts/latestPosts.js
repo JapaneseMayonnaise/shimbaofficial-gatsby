@@ -11,7 +11,7 @@ export default function LatestPosts() {
                <div className="media-content">
                   <div className="content">
                      <Link to={props.to} className="has-text-link">
-                        <h1 className="title is-size-4 is-size-5-touch">{props.title}</h1>
+                        <h1 className="title is-size-4 is-size-5-touch">{props.title} </h1>
                      </Link>
                         <p className="subtitle is-size-6 is-size-7-touch">
                            {props.date}
@@ -56,7 +56,7 @@ export default function LatestPosts() {
                <h1 className="title is-size-4-touch has-text-primary inline">
                   Growth Log &nbsp;
                </h1>
-               <Link to="/technicalGrowthLog/" className="subtitle is-size-5-touch has-text-primary">
+               <Link to="/technicalGrowthLog/" className="subtitle is-size-5-touch has-text-link">
                   more posts >>>
                </Link>
                <div className="columns is-multiline">

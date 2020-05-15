@@ -5,3 +5,11 @@
 .inline {
    display: inline-block;
 }
+
+* {
+   text-decoration: none !important;
+}
+
+a:hover {
+   color: #138000;
+}
