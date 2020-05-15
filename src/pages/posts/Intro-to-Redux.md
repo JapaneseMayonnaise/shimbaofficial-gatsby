@@ -7,6 +7,7 @@ date: "2020-04-20"
 
 [Source code](https://github.com/DrCardamom/RoboRedux)
 
+
 ## What is Redux and when to use it
 Redux manages the state, so it's userful when your application is large and you need to manage many states and share them between multiple containers.
 

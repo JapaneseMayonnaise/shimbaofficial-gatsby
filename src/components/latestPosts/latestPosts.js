@@ -16,9 +16,9 @@ export default function LatestPosts() {
                         <p class="subtitle is-size-6 is-size-7-touch">
                            {props.date}
                         </p>
-                        <p class="subtitle is-size-5 is-size-6-touch">
+                        {/* <p class="subtitle is-size-5 is-size-6-touch">
                            {props.excerpt} 
-                        </p>
+                        </p> */}
                   </div>	
                </div>  
             </article>

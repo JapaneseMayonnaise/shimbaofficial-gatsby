@@ -23,7 +23,7 @@ export default function Header() {
    )
 
    const Icon = (props) => (
-      <span className="icon is-large navbar-icons {props.moreStyle}">
+      <span className="icon is-large navbar-icons">
          <a href={props.href}>
             <FontAwesomeIcon icon={props.iconName} className="fab fa-2x has-text-link"/>
          </a>
@@ -31,10 +31,12 @@ export default function Header() {
    )
 
    return (
-         <nav className="navbar is-spaced is-fixed-top same-layer" role="navigation" aria-label="main navigation">
+         <nav className="navbar is-spaced is-fixed-top same-layer is-transparent" role="navigation" aria-label="main navigation">
              <div className="navbar-brand">
                <Link to="/" className="navbar-item">
-                  <h1 className="has-text-weight-bold is-size-3 has-text-primary brand-name">{data.site.siteMetadata.title}</h1>
+                  <h1 className="has-text-weight-bold is-size-3 has-text-primary brand-name">
+                     {data.site.siteMetadata.title}
+                  </h1>
                </Link>
    
                <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar_menu">
@@ -49,10 +51,10 @@ export default function Header() {
                      About 
                   </Link>
                   <div className="navbar-item has-dropdown is-hoverable">
-                     <a className="navbar-link">
-                     Growth Log
+                     <a className="navbar-link">   
+                        Growth Log
                      </a>
-                     <div className="navbar-dropdown is-radiusless is-shadowless">
+                     <div className="navbar-dropdown is-boxed">
                         <Link to="/technicalGrowthLog/" className="navbar-item"> 
                            Technical &nbsp;&gt;&nbsp;&nbsp; Programming &nbsp;&amp;&nbsp; Operating Systems 
                         </Link>               
@@ -66,8 +68,8 @@ export default function Header() {
                <div className="navbar-end">
                   <div className="navbar-item">
                      <Icon
-                           href="https://github.com/DrCardamom"
-                           iconName={faGithub}
+                        href="https://github.com/DrCardamom"
+                        iconName={faGithub}
                      />                     
                      <Icon
                         href="https://www.linkedin.com/in/eshimba/"

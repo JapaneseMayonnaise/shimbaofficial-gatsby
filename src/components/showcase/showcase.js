@@ -8,7 +8,6 @@ import { faBookmark } from "@fortawesome/free-regular-svg-icons"
 import { faPlayCircle } from "@fortawesome/free-regular-svg-icons"
 import { faServer } from "@fortawesome/free-solid-svg-icons"
 import { faCodeBranch } from "@fortawesome/free-solid-svg-icons"
-
 import { faNodeJs } from "@fortawesome/free-brands-svg-icons"
 import { faDatabase } from "@fortawesome/free-solid-svg-icons"
 import "../../../sass/mystyles.scss"
@@ -61,6 +60,8 @@ export default function Showcase () {
                         &nbsp; Spotify API
                   </span>
                </div>
+
+
                <div className="content">
                   <p>
                      Going on a drive with your grandparents? Don't know what to listen to?
@@ -83,48 +84,48 @@ export default function Showcase () {
          <div className="column">
             <div className="card">
                <div className="card-image">
-               <figure className="image is-4by3">
-                  <a href="https://drcardamom.github.io/RoboRedux/">
-                     <img src="https://thumbs.gfycat.com/ClassicJaggedAngelfish-size_restricted.gif" alt="RoboRedux demo" />
-                  </a>
-               </figure>
+                  <figure className="image is-4by3">
+                     <a href="https://drcardamom.github.io/RoboRedux/">
+                        <img src="https://thumbs.gfycat.com/ClassicJaggedAngelfish-size_restricted.gif" alt="RoboRedux demo" />
+                     </a>
+                  </figure>
                </div>
                <div className="card-content">  
-               <h1 className="title is-4 app-demo-title">
-                  RoboRedux
-                  <span className="icon">
-                     <a href="https://drcardamom.github.io/RoboRedux/">
-                        <FontAwesomeIcon icon={faPlayCircle} className="has-text-link size" />
-                     </a>
-                  </span>
-                  <span className="icon">
-                     <a href="https://github.com/DrCardamom/RoboRedux">
-                       <FontAwesomeIcon icon={faGithub} className="has-text-link size" />
-                     </a>
-                  </span>
-               </h1>
-               <div className="tags  is-marginless">
-                  <span className="tag is-primary is-light">
-                        <FontAwesomeIcon icon={faReact} />
-                        &nbsp; React.js
-                  </span>                 
-                  <span className="tag is-primary is-light">
-                        <FontAwesomeIcon icon={faReact} />
-                        &nbsp; Redux.js
-                  </span>                    
-               </div>
-               <div className="content">
-                  <p>
-                     Mini robo search engine powered by React.js and Redux.js. Logs changes of the state using Redux-logger and handle API call with Redux-thunk.
-                  </p>
-                  <p>
-                     Also read &nbsp;
-                  <Link to="/Intro-to-Redux/ "className="has-text-link">
-                     <FontAwesomeIcon icon={faBookmark} className="fas has-text-link"/>
-                     &nbsp; What is Redux.js?
-                  </Link>
-                  </p>
-               </div>
+                  <h1 className="title is-4 app-demo-title">
+                     RoboRedux
+                     <span className="icon">
+                        <a href="https://drcardamom.github.io/RoboRedux/">
+                           <FontAwesomeIcon icon={faPlayCircle} className="has-text-link size" />
+                        </a>
+                     </span>
+                     <span className="icon">
+                        <a href="https://github.com/DrCardamom/RoboRedux">
+                        <FontAwesomeIcon icon={faGithub} className="has-text-link size" />
+                        </a>
+                     </span>
+                  </h1>
+                  <div className="tags  is-marginless">
+                     <span className="tag is-primary is-light">
+                           <FontAwesomeIcon icon={faReact} />
+                           &nbsp; React.js
+                     </span>                 
+                     <span className="tag is-primary is-light">
+                           <FontAwesomeIcon icon={faReact} />
+                           &nbsp; Redux.js
+                     </span>                    
+                  </div>
+                  <div className="content">
+                     <p>
+                        Mini robo search engine powered by React.js and Redux.js. Logs changes of the state using Redux-logger and handle API call with Redux-thunk.
+                     </p>
+                     <p>
+                        Also read &nbsp;
+                     <Link to="/Intro-to-Redux/" className="has-text-link">
+                        <FontAwesomeIcon icon={faBookmark} className="fas has-text-link"/>
+                        &nbsp; What is Redux.js?
+                     </Link>
+                     </p>
+                     </div>
                </div>
             </div>				
          </div>

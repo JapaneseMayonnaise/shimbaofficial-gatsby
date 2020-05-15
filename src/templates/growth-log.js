@@ -5,6 +5,8 @@ import "../../sass/mystyles.scss"
 
 export default function GrowthLog({ data }) {
   const post = data.markdownRemark
+  console.log("html", post.html);
+  
   return (
     <Layout>
         <section className="section">
