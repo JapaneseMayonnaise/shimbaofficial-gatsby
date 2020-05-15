@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../../sass/mystyles.scss"
+import "./growth-log.css"
 
 export default function GrowthLog({ data }) {
   const post = data.markdownRemark

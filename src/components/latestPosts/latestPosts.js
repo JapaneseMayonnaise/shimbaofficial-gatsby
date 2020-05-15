@@ -6,17 +6,17 @@ import "../../../sass/mystyles.scss"
 export default function LatestPosts() {
    const Article = (props) => {
       return (
-         <div class="column is-one-third" key={props.key}>
-            <article class="media notification has-background-light">
-               <div class="media-content">
-                  <div class="content">
-                     <Link to={props.to} class="has-text-link">
-                        <h1 class="title is-size-4 is-size-5-touch">{props.title}</h1>
+         <div className="column is-one-third" key={props.id}>
+            <article className="media notification has-background-light">
+               <div className="media-content">
+                  <div className="content">
+                     <Link to={props.to} className="has-text-link">
+                        <h1 className="title is-size-4 is-size-5-touch">{props.title}</h1>
                      </Link>
-                        <p class="subtitle is-size-6 is-size-7-touch">
+                        <p className="subtitle is-size-6 is-size-7-touch">
                            {props.date}
                         </p>
-                        {/* <p class="subtitle is-size-5 is-size-6-touch">
+                        {/* <p className="subtitle is-size-5 is-size-6-touch">
                            {props.excerpt} 
                         </p> */}
                   </div>	
@@ -51,18 +51,18 @@ export default function LatestPosts() {
    )
 
    return (
-         <section class="section bottom-section margin-top" id="growthLog-technical">
-            <div class="container">
-               <h1 class="title is-size-4-touch has-text-primary inline">
+         <section className="section bottom-section margin-top" id="growthLog-technical">
+            <div className="container">
+               <h1 className="title is-size-4-touch has-text-primary inline">
                   Growth Log &nbsp;
                </h1>
-               <Link to="/technicalGrowthLog/" class="subtitle is-size-5-touch has-text-primary">
+               <Link to="/technicalGrowthLog/" className="subtitle is-size-5-touch has-text-primary">
                   more posts >>>
                </Link>
-               <div class="columns is-multiline">
+               <div className="columns is-multiline">
                      {data.allMarkdownRemark.edges.map(({ node }) => (
                         <Article 
-                           key={node.id}
+                           id={node.id}
                            title={node.frontmatter.title}
                            excerpt={node.excerpt}
                            to={node.fields.slug}
