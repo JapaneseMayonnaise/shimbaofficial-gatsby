@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import Layout from '../../components/layout'
-import SEO from "../../components/seo"
-import './growthLog.css' 
+import Layout from '../components/layout'
+import SEO from "../components/seo"
+import growthLog from './growthLogResources/growthLog.module.css' 
 
 export default function PersonalGrowthLog ({data}) {
    console.log(data);

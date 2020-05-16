@@ -1,9 +1,9 @@
 import React from 'react'
-import SEO from "../../components/seo"
+import SEO from "../components/seo"
 import { graphql, Link } from 'gatsby'
-import Layout from '../../components/layout'
-import "../../../sass/mystyles.scss"
-import './growthLog.css'
+import Layout from '../components/layout'
+import "../../sass/mystyles.scss"
+import growthLog from './growthLogResources/growthLog.module.css' 
 
 export default function TechnicalGrowthLog ({data}) {
    console.log(data);
@@ -11,13 +11,13 @@ export default function TechnicalGrowthLog ({data}) {
    return (
       <Layout>
         <SEO title="Technical Growth Log" />
-        <section class="hero is-primary margin-bottom">
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title is-size-3-desktop is-size-4-touch">
+        <section className={`hero is-primary ${growthLog.marginBottom}`}>
+          <div className="hero-body">
+            <div className="container">
+              <h1 className="title is-size-3-desktop is-size-4-touch">
                 Technical Growth Log
               </h1>
-              <h2 class="subtitle">
+              <h2 className="subtitle">
               { data.allMarkdownRemark.totalCount } posts
               </h2>
             </div>
@@ -34,13 +34,13 @@ export default function TechnicalGrowthLog ({data}) {
                         {node.frontmatter.title}{" "}
                       </Link>
                     </h1>
-                    <div id="excerpt">
+                    <div className={growthLog.excerpt}>
                       <p className="is-size-5-desktop is-size-6-touch">
                         {node.excerpt}
                       </p>
                     </div>
                     <p>{node.frontmatter.date} &nbsp; {node.timeToRead} mins read </p>
-                    <hr className="hr" />
+                    <hr className={growthLog.hr} />
                   </article>
                 </div>
               )

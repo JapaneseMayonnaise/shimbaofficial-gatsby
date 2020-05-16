@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages/growthLog/posts/images`,
+        path: `${__dirname}/src/pages/posts/images`,
       },
     },
   ],

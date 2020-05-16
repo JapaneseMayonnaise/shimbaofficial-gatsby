@@ -1,25 +1,17 @@
 import React from "react";
 import SEO from "../components/seo"
-import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../../sass/mystyles.scss"
 
-export default function About({data}) {
+export default function About() {
    return (
       <Layout>
          <SEO title="About" />
-         <h1>About me</h1>
-         {/* <h1>{ data.site.siteMetadata.title}</h1> */}
+            <section className="section">
+               <main className="container">
+                  <h1>Hi, I'm Elliot Shimba</h1>
+               </main>
+            </section>
       </Layout>
    )
 }
-
-export const query = graphql`
-   query {
-      site {
-         siteMetadata {
-            title
-         }
-      }
-   }
-`

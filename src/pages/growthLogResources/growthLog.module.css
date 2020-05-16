@@ -1,15 +1,15 @@
-.margin-bottom {
+.marginBottom {
    margin-bottom: 20px;
 }
 
-#excerpt {
+.excerpt {
    margin-bottom: 1rem;
 }
 
 .hr {
    margin-top: 0.5rem;
    color: #615e56;
-   height: 2px;
+   height: 4px;
 }
 
 a:hover {
