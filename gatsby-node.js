@@ -5,7 +5,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.onCreateNode = ({ node, getNode, actions }) => {
    const { createNodeField } = actions
    if(node.internal.type === `MarkdownRemark`) {
-      const slug = createFilePath({ node, getNode, basePath:`pages/posts`})
+      const slug = createFilePath({ node, getNode, basePath:`pages/growthLog/posts`})
       createNodeField({
          node,
          name:`slug`,
@@ -34,7 +34,7 @@ exports.createPages = async({ graphql, actions }) => {
    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
          path: node.fields.slug,
-         component: path.resolve(`./src/templates/growth-log.js`),
+         component: path.resolve(`./src/templates/growthLogTemplate.js`),
          // you can use data passed to context in page query 
          // as graphql variables like $slug like I did in growth-log.js
          context: {

@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../../sass/mystyles.scss"
-import "./growth-log.css"
+import "./growthLogTemplate.css"
 
 export default function GrowthLog({ data }) {
   const post = data.markdownRemark
