@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
-import './latestposts.css'
+import './latestPosts.css'
 import "../../../sass/mystyles.scss"
 
 export default function LatestPosts() {

@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import "../../sass/mystyles.scss"
 import "./growth-log.css"
 
@@ -10,6 +11,7 @@ export default function GrowthLog({ data }) {
   
   return (
     <Layout>
+        <SEO title={post.frontmatter.title} description={post.excerpt} />
         <section className="section">
           <div className="container">
             <article>

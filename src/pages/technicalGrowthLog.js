@@ -1,4 +1,5 @@
 import React from 'react'
+import SEO from "../components/seo"
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import "../../sass/mystyles.scss"
@@ -9,6 +10,7 @@ export default function TechnicalGrowthLog ({data}) {
 
    return (
       <Layout>
+        <SEO title="Technical Growth Log" />
         <section class="hero is-primary margin-bottom">
           <div class="hero-body">
             <div class="container">

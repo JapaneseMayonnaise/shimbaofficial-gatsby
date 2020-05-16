@@ -1,13 +1,15 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
-import './technicalGrowthLog.css'
+import SEO from "../components/seo"
+import './technicalGrowthLog.css' 
 
 export default function TechnicalGrowthLog ({data}) {
    console.log(data);
 
    return (
       <Layout>
+        <SEO title="Personal Growth Log" />
         <section class="hero is-primary margin-bottom">
           <div class="hero-body">
             <div class="container">
