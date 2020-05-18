@@ -10,6 +10,7 @@ export default function About() {
             <section className="section">
                <main className="container">
                   <h1>Hi, I'm Elliot Shimba</h1>
+                  
                </main>
             </section>
       </Layout>

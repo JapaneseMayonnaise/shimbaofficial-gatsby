@@ -4,7 +4,7 @@ import style from "./footer.module.css"
 
 export default function Footer() {
    return (
-      <footer className={`footer ${footerBackground}`}>
+      <footer className={`footer ${style.footerBackground}`}>
          <div className="content has-text-centered">
             <p className="has-text-white  has-text-weight-semibold">
                ELLIOT SHIMBA &nbsp;&copy;&nbsp; 2020
@@ -13,7 +13,7 @@ export default function Footer() {
             <a href="https://bulma.io">
                <img src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="160" height="30" />
             </a>
-         </div>s
+         </div>
       </footer> 
    )
 }

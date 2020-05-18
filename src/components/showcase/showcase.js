@@ -29,7 +29,7 @@ export default function Showcase () {
                </figure>
                </div>
                <div className="card-content">
-               <h1 className="title is-4 app-demo-title">
+               <h1 className="title is-size-4 is-size-5-touch app-demo-title">
                   Democratic Carpool Karaoke
                   <span className="icon">
                      <a href="https://democratic-carpool-karaoke.herokuapp.com/">
@@ -60,9 +60,7 @@ export default function Showcase () {
                         &nbsp; Spotify API
                   </span>
                </div>
-
-
-               <div className="content">
+               <div className="is-size-5 is-size-6-touch content">
                   <p>
                      Going on a drive with your grandparents? Don't know what to listen to?
                      This web app generates a Spotify playlist for you that consists of 50 popular songs of your generation and another 50 of your carpool-buddies' generation, all evenly mixed.
@@ -91,7 +89,7 @@ export default function Showcase () {
                   </figure>
                </div>
                <div className="card-content">  
-                  <h1 className="title is-4 app-demo-title">
+                  <h1 className="title is-size-4 is-size-5-touch app-demo-title">
                      RoboRedux
                      <span className="icon">
                         <a href="https://drcardamom.github.io/RoboRedux/">
@@ -114,7 +112,7 @@ export default function Showcase () {
                            &nbsp; Redux.js
                      </span>                    
                   </div>
-                  <div className="content">
+                  <div className="content is-size-5 is-size-6-touch ">
                      <p>
                         Mini robo search engine powered by React.js and Redux.js. Logs changes of the state using Redux-logger and handle API call with Redux-thunk.
                      </p>
@@ -141,7 +139,7 @@ export default function Showcase () {
                </figure>
                </div>
                <div className="card-content">
-               <h1 className="title is-4 app-demo-title">
+               <h1 className="title is-size-4 is-size-5-touch app-demo-title">
                   Smart Brain
                   <span className="icon">
                      <a href="https://drcardamom.github.io/RoboRedux/">
@@ -177,7 +175,7 @@ export default function Showcase () {
                         &nbsp; Clarifai AI API
                   </span>                 
                </div>
-               <div className="content">
+               <div className="content is-size-5 is-size-6-touch">
                   <p>
                      Input an image address in the search box and voila! It shows where exactly a face locates in the image. 
                      This app works with AI-powered API and stores user data in PostgreSQL database hosted on Heroku. 

@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../../sass/mystyles.scss"
-import style from "./growthLogTemplate.module.css"
+import "./growthLogTemplate.module.css"
 
 export default function GrowthLog({ data }) {
   const post = data.markdownRemark
@@ -21,11 +21,11 @@ export default function GrowthLog({ data }) {
               <h2 className="subtitle is-size-5-desktop is-size-5-touch">
                 { post.frontmatter.date } &nbsp; {post.timeToRead} min read
               </h2>
-
-              <div 
-                className={`is-size-5-desktop is-size-6-touch ${style.h1, style.h2, style.pre, style.p}`} 
-                dangerouslySetInnerHTML={{ __html: post.html}} 
-              />
+              <span className="is-size-5-desktop is-size-6-touch">
+                <div 
+                  dangerouslySetInnerHTML={{ __html: post.html}} 
+                />
+              </span>
             </article>
           </div>
         </section>

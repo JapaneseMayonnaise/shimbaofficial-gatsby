@@ -6,7 +6,6 @@ import { faMediumM } from "@fortawesome/free-brands-svg-icons"
 import { faDev } from "@fortawesome/free-brands-svg-icons"
 import { faStackOverflow } from "@fortawesome/free-brands-svg-icons"
 import "../../../sass/mystyles.scss"
-import style from "./navbar.module.css"
 import Icon from './Icon'
 
 class Navbar extends React.Component {

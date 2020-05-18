@@ -1,23 +1,32 @@
-h1 {
-   font-size: 2rem;
-   font-weight: bold;
-}
-
-h2 {
+span > div > h2 {
    font-size: 1.7rem;
    font-weight: bold;
    margin-top: 20px;
 }
 
-p {
-   font-size: 1.3rem;
-   margin-bottom: 10px;
+span > div > h3 {
+   font-size: 1.4rem;
+   font-weight: bold;
+   margin-top: 17px;
+
 }
 
-pre {
+span > div > h4 {
+   font-size: 1.2rem;
+   font-weight: bold;
+   margin-top: 17px;
+
+}
+
+
+span > div > pre {
    margin: 10px 0;
 }
 
 a:hover {
    color: #138000;
+}
+
+span > div > img {
+   margin: 20px;
 }
