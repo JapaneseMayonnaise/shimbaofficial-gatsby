@@ -29,6 +29,7 @@ class Navbar extends React.Component {
          >
             <div className="navbar-brand">
                <Link to="/" className="navbar-item">
+
                   <h1 className="has-text-weight-bold is-size-3 has-text-primary brand-name">
                      { title }
                   </h1>
