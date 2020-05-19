@@ -1,3 +1,7 @@
 /* .debugger {
    border: 2px solid greenyellow;
 } */
+
+.column {
+   padding: 2px;
+}
