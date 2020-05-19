@@ -16,14 +16,14 @@ export default function About({data}) {
             <section className="section">
                <div className="container">
                   <h1 className="title is-size-2 is-size-3-touch">                                          
-                     Nice to e-meet you, I'm Elliot Shimba. {`#:hi`}
+                     Nice to e-meet you, I'm Elliot Shimba. :hi:
                   </h1>
                   <div className="columns is-multiline">
                      <div className={`column is-two-thirds ${style.debugger}`}>
                         <h2 className="title is-size-3 is-size-4-touch">
-                           A Toronto-based full-stack web developer `#:computer:`, <br />
-                           strong advocate of diversity &amp; inclusion in tech community :rainbow:, <br />
-                           avid sourdough-baker :bread:
+                           A Toronto-based full-stack web developer :computer:, <br />
+                           strong advocate of diversity &amp; inclusion in tech community `:rainbow:`, <br />
+                           avid sourdough-baker
                         </h2>
                      </div>
                      <div className={`column is-one-third ${style.debugger}`}>
@@ -33,7 +33,7 @@ export default function About({data}) {
                            />
                      </div>   
                      <div className={`column is-two-thirds ${style.debugger}`}>
-                        <h2 className="is-size-4 is-size-5-toeuch">
+                        <h2 className="is-size-4 is-size-5-touch">
                            JavaScript is my favourite language and I strive to write clean, reusable code. <br />
                            I enjoy crafting beautiful full-stack applications with JavaScript and JS-fueled / related tools 
                            such as React.js, Node.js, TypeScript, Redux.js, Gatsby, PostgreSQL, MongoDB, Jest, Git and more.(I never stop learning!)
@@ -78,6 +78,7 @@ export default function About({data}) {
                               fluid={data.fourthImage.childImageSharp.fluid}
                               alt="shimba's profile photo first of four"
                            />
+                           <small>Photo credit <a href="https://www.roxi.design/">Roxanne Nicolussi</a></small>
                      </div>
                   </div>
                </div>
@@ -95,21 +96,21 @@ export const query = graphql`
           }
         }
       },
-      secondImage: file(relativePath: { eq: "images/profile_photo_lookingLeft.jpg" }) {
+      secondImage: file(relativePath: { eq: "images/profile_photo_lookingRight.jpg" }) {
          childImageSharp {
            fluid (maxWidth: 800){
              ...GatsbyImageSharpFluid
            }
          }
        },
-       thirdImage: file(relativePath: { eq: "images/profile_photo_lookingRight.jpg" }) {
+       thirdImage: file(relativePath: { eq: "images/profile_photo_lookingLeft.jpg" }) {
          childImageSharp {
            fluid (maxWidth: 800){
              ...GatsbyImageSharpFluid
            }
          }
        },
-       fourthImage: file(relativePath: { eq: "images/profile_photo_lookingStraight.jpg" }) {
+       fourthImage: file(relativePath: { eq: "images/profile_photo_standing.jpg" }) {
          childImageSharp {
            fluid (maxWidth: 800){
              ...GatsbyImageSharpFluid
