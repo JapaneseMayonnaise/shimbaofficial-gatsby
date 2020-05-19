@@ -11,3 +11,8 @@
       margin-bottom: 4px !important;
    }
  } 
+
+ .disc {
+      list-style-type: disc;
+      list-style-position: inside;
+ }

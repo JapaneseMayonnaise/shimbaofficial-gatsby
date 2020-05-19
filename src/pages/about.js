@@ -46,28 +46,37 @@ export default function About({data}) {
                            />
                      </div>
                      <div className={`column is-two-thirds ${style.debugger}`}>
-                        <h2 className="is-size-3 is-size-5-touch">
-                           JavaScript is my favourite language and I strive to write clean, reusable code. <br />
-                           I enjoy crafting beautiful full-stack applications with JavaScript and JS-fueled / related tools 
-                           such as React.js, Node.js, TypeScript, Redux.js, Gatsby, PostgreSQL, MongoDB, Jest, Git and more.(I never stop learning!)
+                        <h2 className="is-size-4 is-size-5-touch">
+                           I enjoy crafting beautiful applications, especially in a cohesive team, using JavaScript and JS-fueled/related tools 
+                           such as React.js, Node.js, TypeScript, Redux.js, Gatsby, PostgreSQL, MongoDB, Jest, and more. 
+                           <br />                           
+                           <br />                           
+                           As a trans person of colour, it is my important mission to be a safer person to work with and
+                           create a safer workplace for the fellow queer/poc/people with disabilities.
+                           Although things have improved for us these past several years like mentioned in
+                           <a href="https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/"> here </a> 
+                           and <a href="https://www.codethink.co.uk/articles/2019/acceptance-strife-and-progress-in-the-lgbtiq-and-open-source-communities/"> there</a>,
+                           I believe tech and open source community can be even more inclusive and diversed with our continuous effort.
                         </h2>
                      </div>
                      <div className={`column is-one-third ${style.debugger}`}>
                            <Img
                               fluid={data.thirdImage.childImageSharp.fluid}
                               alt="shimba's profile photo first of four"
-                              />
+                           />
                      </div>
                      <div className={`column is-two-thirds ${style.debugger}`}>
-                        <h2 className="is-size-3 is-size-5-touch">
-                           Besides web development, things I've been keen on include <br />
+                        <h2 className="is-size-4 is-size-5-touch">
+                           Besides things mentioned above, I am also keen on<br />
                         </h2>
-                        <p className="is-size-3 is-size-5-touch">
-                           <ul>
-                              <li>Operating systems</li>
-                              <li>teaching kids how to code</li>
-                              <li>open-source projects(even better if supporting or mainly run by queer / people of colour)</li>
-                              <li>anti-surveillance, online privacy, net neutrality</li>
+                        <p className="is-size-4 is-size-5-touch">
+                           <ul className={`${style.disc}`}>
+                              <li>Linux based operating systems</li>
+                              <li>Teaching how to code, especially socially & culturally marginalized folks</li>
+                              <li>FOSS projects</li>
+                              <li>Online privacy</li>
+                              <li>Net neutrality</li>
+                              <li>Blockchain</li>
                            </ul>
                         </p>
                      </div>
@@ -79,8 +88,8 @@ export default function About({data}) {
                            <small>Photo credit <a href="https://www.roxi.design/">Roxanne Nicolussi</a></small>
                      </div>
                      <div className={`column is-two-thirds ${style.debugger}`}>
-                       <h2 className="is-size-3 is-size-5-touch">
-                           Oh, you same? Excellent! Let's make it heppen together or let me contribute to your project! <br />
+                       <h2 className="is-size-4 is-size-5-touch">
+                           Oh, you same? Excellent! Let's make it heppen together or let me contribute to your project. <br />
                            To get in touch, you can
                            <a href="mailto:shimba@posteo.net"> email me </a>
                            or message me on
