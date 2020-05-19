@@ -15,7 +15,7 @@ export default function About({data}) {
          <SEO title="About" /> 
             <section className="section">
                <div className="container">
-                  <div className="columns is-multiline is-vcentered">
+                  <div className="columns is-multiline is-vcentered reverse-column-order">
                      {/* <div className={`column is-two-thirds is-offset-one-third ${style.debugger}`}>
                         <h1 className="title is-size-2 is-size-3-touch">                                          
                            Nice to e-meet you, I'm Elliot Shimba. 
@@ -28,7 +28,7 @@ export default function About({data}) {
                            />
                      </div>
                      <div className={`column is-two-thirds ${style.debugger}`}>
-                        <h1 className="title is-size-2 is-size-3-touch">                                          
+                        <h1 className={`title is-size-2 is-size-4-touch ${style.h1Margin}`}>                                          
                            Nice to e-meet you, I'm Elliot Shimba. 
                         </h1>
                         <h2 className={`title is-size-2 is-size-4-touch ${style.textVerticalSpacing}`}>
@@ -67,7 +67,6 @@ export default function About({data}) {
                               <li>Operating systems</li>
                               <li>teaching kids how to code</li>
                               <li>open-source projects(even better if supporting or mainly run by queer / people of colour)</li>
-                              <li>teaching kids how to code</li>
                               <li>anti-surveillance, online privacy, net neutrality</li>
                            </ul>
                         </p>
