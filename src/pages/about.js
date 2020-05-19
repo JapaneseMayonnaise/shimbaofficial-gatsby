@@ -15,30 +15,30 @@ export default function About({data}) {
          <SEO title="About" /> 
             <section className="section">
                <div className="container">
-                  <h1 className="title is-size-2 is-size-3-touch">                                          
-                     Nice to e-meet you, I'm Elliot Shimba. :hi:
-                  </h1>
-                  <div className="columns is-multiline">
-                     <div className={`column is-two-thirds ${style.debugger}`}>
-                        <h2 className="title is-size-3 is-size-4-touch">
-                           A Toronto-based full-stack web developer :computer:, <br />
-                           strong advocate of diversity &amp; inclusion in tech community `:rainbow:`, <br />
-                           avid sourdough-baker
-                        </h2>
-                     </div>
+                  <div className="columns is-multiline is-vcentered">
+                     {/* <div className={`column is-two-thirds is-offset-one-third ${style.debugger}`}>
+                        <h1 className="title is-size-2 is-size-3-touch">                                          
+                           Nice to e-meet you, I'm Elliot Shimba. 
+                        </h1>
+                     </div>    */}
                      <div className={`column is-one-third ${style.debugger}`}>
                            <Img
                               fluid={data.firstImage.childImageSharp.fluid}
-                              alt="shimba's profile photo first of four"
+                              alt="shimba's profile photo first of four."
                            />
-                     </div>   
+                     </div>
                      <div className={`column is-two-thirds ${style.debugger}`}>
-                        <h2 className="is-size-4 is-size-5-touch">
-                           JavaScript is my favourite language and I strive to write clean, reusable code. <br />
-                           I enjoy crafting beautiful full-stack applications with JavaScript and JS-fueled / related tools 
-                           such as React.js, Node.js, TypeScript, Redux.js, Gatsby, PostgreSQL, MongoDB, Jest, Git and more.(I never stop learning!)
+                        <h1 className="title is-size-2 is-size-3-touch">                                          
+                           Nice to e-meet you, I'm Elliot Shimba. 
+                        </h1>
+                        <h2 className={`title is-size-2 is-size-4-touch ${style.textVerticalSpacing}`}>
+                           A Toronto-based full-stack web developer, <br />
+                           strong advocate of diversity in tech community, <br />
+                           avid sourdough-baker.
                         </h2>
                      </div>
+                  </div>
+                  <div className="columns is-multiline">   
                      <div className={`column is-one-third ${style.debugger}`}>
                            <Img
                               fluid={data.secondImage.childImageSharp.fluid}
@@ -46,13 +46,11 @@ export default function About({data}) {
                            />
                      </div>
                      <div className={`column is-two-thirds ${style.debugger}`}>
-                        <h2 className="is-size-4 is-size-5-touch">
-                           Besides web development, things I've been keen on include
+                        <h2 className="is-size-3 is-size-5-touch">
+                           JavaScript is my favourite language and I strive to write clean, reusable code. <br />
+                           I enjoy crafting beautiful full-stack applications with JavaScript and JS-fueled / related tools 
+                           such as React.js, Node.js, TypeScript, Redux.js, Gatsby, PostgreSQL, MongoDB, Jest, Git and more.(I never stop learning!)
                         </h2>
-                           <h3 className="is-size-4 is-size-5-touch">
-                              Operating systems, open-source projects(even better if supporting or mainly run by queer / people of colour), teaching kids how to code, 
-                              anti-surveillance, online privacy, net neutrality.<br /> 
-                           </h3>
                      </div>
                      <div className={`column is-one-third ${style.debugger}`}>
                            <Img
@@ -61,8 +59,29 @@ export default function About({data}) {
                               />
                      </div>
                      <div className={`column is-two-thirds ${style.debugger}`}>
-                       <h2 className="is-size-4 is-size-5-touch">
-                           Oh, you same? Excellent! Let's make it heppen together or let me contribute to your project!
+                        <h2 className="is-size-3 is-size-5-touch">
+                           Besides web development, things I've been keen on include <br />
+                        </h2>
+                        <p className="is-size-3 is-size-5-touch">
+                           <ul>
+                              <li>Operating systems</li>
+                              <li>teaching kids how to code</li>
+                              <li>open-source projects(even better if supporting or mainly run by queer / people of colour)</li>
+                              <li>teaching kids how to code</li>
+                              <li>anti-surveillance, online privacy, net neutrality</li>
+                           </ul>
+                        </p>
+                     </div>
+                     <div className={`column is-one-third ${style.debugger}`}>
+                           <Img
+                              fluid={data.fourthImage.childImageSharp.fluid}
+                              alt="shimba's profile photo first of four"
+                           />
+                           <small>Photo credit <a href="https://www.roxi.design/">Roxanne Nicolussi</a></small>
+                     </div>
+                     <div className={`column is-two-thirds ${style.debugger}`}>
+                       <h2 className="is-size-3 is-size-5-touch">
+                           Oh, you same? Excellent! Let's make it heppen together or let me contribute to your project! <br />
                            To get in touch, you can
                            <a href="mailto:shimba@posteo.net"> email me </a>
                            or message me on
@@ -72,13 +91,6 @@ export default function About({data}) {
                               </a>
                            </span>
                         </h2>
-                     </div>
-                     <div className={`column is-one-third ${style.debugger}`}>
-                           <Img
-                              fluid={data.fourthImage.childImageSharp.fluid}
-                              alt="shimba's profile photo first of four"
-                           />
-                           <small>Photo credit <a href="https://www.roxi.design/">Roxanne Nicolussi</a></small>
                      </div>
                   </div>
                </div>

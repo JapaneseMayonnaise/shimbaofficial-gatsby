@@ -2,6 +2,6 @@
    border: 2px solid greenyellow;
 } */
 
-.column {
-   padding: 2px;
+.textVerticalSpacing {
+   line-height: 150%;
 }
