@@ -82,11 +82,11 @@ export default function About({data}) {
                               <li>Operating systems</li>
                               <li>Blockchain</li>
                               <li>FOSS</li>
-                              <li>Online privacy</li>
-                              <li>Net neutrality</li>
                               <li>Hackathons & GameJams</li>
                               <li>Teaching how to code, especially socially & culturally marginalized folks</li>
-                              <li>Technical document translation English - Japanese</li>
+                              <li>Online privacy</li>
+                              <li>Net neutrality</li>
+                              <li>Technical document translation (English - Japanese)</li>
                            </ul>
                         </p>
                      </Description>
