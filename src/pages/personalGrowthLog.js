@@ -3,29 +3,29 @@ import SEO from "../components/seo"
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import "../../sass/mystyles.scss"
-import growthLog from './growthLogResources/growthLog.module.css' 
+import style from './growthLogResources/growthLog.module.css' 
 
 export default function PersonalGrowthLog ({data}) {
-   console.log(data);
-
    return (
       <Layout>
-        <SEO title="PersonalGrowth Log" />
-        <section className={`hero is-primary ${growthLog.marginBottom}`}>
+        <SEO title="Personal Growth Log" />
+        <section className={`hero is-primary ${style.marginBottom}`}>
           <div className="hero-body">
             <div className="container">
               <h1 className="title is-size-3-desktop is-size-4-touch">
                 PersonalGrowth Log
               </h1>
               <h2 className="subtitle">
-              { data.allMarkdownRemark.totalCount } posts
+              {/* { data.allMarkdownRemark.totalCount } posts */}
+              0 post
               </h2>
             </div>
           </div>
         </section>
         <section className="section">
           <div className="container">
-            {data.allMarkdownRemark.edges.map(({ node }) => 
+            
+            {/* {data.allMarkdownRemark.edges.map(({ node }) => 
               (
                 <div key={node.id}>
                   <article>
@@ -34,17 +34,17 @@ export default function PersonalGrowthLog ({data}) {
                         {node.frontmatter.title}{" "}
                       </Link>
                     </h1>
-                    <div className={growthLog.excerpt}>
+                    <div className={style.excerpt}>
                       <p className="is-size-5-desktop is-size-6-touch">
                         {node.excerpt}
                       </p>
                     </div>
                     <p>{node.frontmatter.date} &nbsp; {node.timeToRead} mins read </p>
-                    <hr className={growthLog.hr} />
+                    <hr className={style.hr} />
                   </article>
                 </div>
               )
-            )}
+            )} */}
           </div>
         </section>
     </Layout>

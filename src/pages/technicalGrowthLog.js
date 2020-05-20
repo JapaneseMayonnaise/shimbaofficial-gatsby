@@ -3,15 +3,13 @@ import SEO from "../components/seo"
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import "../../sass/mystyles.scss"
-import growthLog from './growthLogResources/growthLog.module.css' 
+import style from './growthLogResources/growthLog.module.css' 
 
 export default function TechnicalGrowthLog ({data}) {
-   console.log(data);
-
    return (
       <Layout>
         <SEO title="Technical Growth Log" />
-        <section className={`hero is-primary ${growthLog.marginBottom}`}>
+        <section className={`hero is-primary ${style.marginBottom}`}>
           <div className="hero-body">
             <div className="container">
               <h1 className="title is-size-3-desktop is-size-4-touch">
@@ -34,13 +32,13 @@ export default function TechnicalGrowthLog ({data}) {
                         {node.frontmatter.title}{" "}
                       </Link>
                     </h1>
-                    <div className={growthLog.excerpt}>
+                    <div className={style.excerpt}>
                       <p className="is-size-5-desktop is-size-6-touch">
                         {node.excerpt}
                       </p>
                     </div>
                     <p>{node.frontmatter.date} &nbsp; {node.timeToRead} mins read </p>
-                    <hr className={growthLog.hr} />
+                    <hr className={style.hr} />
                   </article>
                 </div>
               )

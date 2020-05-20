@@ -4,8 +4,8 @@ import './latestPosts.css'
 import "../../../sass/mystyles.scss"
 
 export default function LatestPosts() {
-   const Article = (props) => {
-      return (
+   const Article = (props) => 
+       (
          <div className="column is-one-third" key={props.id}>
             <article className="media notification has-background-light">
                <div className="media-content">
@@ -24,7 +24,6 @@ export default function LatestPosts() {
             </article>
          </div>   
       )
-   }
 
    const data = useStaticQuery(
       graphql` 
