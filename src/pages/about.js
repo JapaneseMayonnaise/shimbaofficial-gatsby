@@ -80,13 +80,13 @@ export default function About({data}) {
                         <p className="is-size-4 is-size-5-touch">
                            <ul className={`${style.disc}`}>
                               <li>Operating systems</li>
-                              <li>Teaching how to code, especially socially & culturally marginalized folks</li>
+                              <li>Blockchain</li>
                               <li>FOSS</li>
-                              <li>Technical document translation English - Japanese</li>
                               <li>Online privacy</li>
                               <li>Net neutrality</li>
-                              <li>Blockchain</li>
                               <li>Hackathons & GameJams</li>
+                              <li>Teaching how to code, especially socially & culturally marginalized folks</li>
+                              <li>Technical document translation English - Japanese</li>
                            </ul>
                         </p>
                      </Description>
