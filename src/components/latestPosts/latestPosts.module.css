@@ -1,4 +1,4 @@
-.margin-top {
+.marginTop {
    margin-top: 1.5rem;
 }
 
@@ -6,6 +6,6 @@
    display: inline-block;
 }
 
-* {
+.titleNoDecoration {
    text-decoration: none !important;
 }

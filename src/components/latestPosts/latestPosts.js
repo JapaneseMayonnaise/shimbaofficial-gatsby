@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
-import './latestPosts.css'
+import style from './latestPosts.module.css'
 import "../../../sass/mystyles.scss"
 
 export default function LatestPosts() {
@@ -10,8 +10,8 @@ export default function LatestPosts() {
             <article className="media notification has-background-light">
                <div className="media-content">
                   <div className="content">
-                     <Link to={props.to} className="has-text-link">
-                        <h1 className="title is-size-4 is-size-5-touch">{props.title} </h1>
+                     <Link to={props.to} className={`has-text-link ${style.titleNoDecoration}`}>
+                        <h1 className={`title is-size-4 is-size-5-touch`}>{props.title} </h1>
                      </Link>
                         <p className="subtitle is-size-6 is-size-7-touch">
                            {props.date}
@@ -50,9 +50,9 @@ export default function LatestPosts() {
    )
 
    return (
-         <section className="section bottom-section margin-top" id="growthLog-technical">
+         <section className={`section bottom-section ${style.marginTop}`} id="growthLog-technical">
             <div className="container">
-               <h1 className="title is-size-4-touch has-text-primary inline">
+               <h1 className={`title is-size-4-touch has-text-primary ${style.inline}`}>
                   Growth Log &nbsp;
                </h1>
                <Link to="/technicalGrowthLog/" className="subtitle is-size-5-touch has-text-link">

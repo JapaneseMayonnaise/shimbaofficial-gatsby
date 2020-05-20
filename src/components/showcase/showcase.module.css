@@ -1,0 +1,12 @@
+/* Without this, title and tech stack tags are too close to the app title */
+.appDemoTitle {
+   margin-bottom: 10px !important;
+}
+
+.icon {
+  margin-left: 0.5rem;
+}
+
+.size {
+  font-size: 1.4rem;
+}

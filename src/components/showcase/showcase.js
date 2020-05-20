@@ -11,11 +11,11 @@ import { faCodeBranch } from "@fortawesome/free-solid-svg-icons"
 import { faNodeJs } from "@fortawesome/free-brands-svg-icons"
 import { faDatabase } from "@fortawesome/free-solid-svg-icons"
 import "../../../sass/mystyles.scss"
-import './showcase.css'
+import style from  './showcase.module.css'
 
 export default function Showcase () {
    return (
-      <section className="section top-section is-paddingless same-layer" id="portfolio">
+      <section className={`section top-section is-paddingless same-layer ${style.sameLayer}`} id="portfolio">
          <div className="container">
          <div className="columns ">
          {/* Democratic Carpool Karaoke */}
@@ -29,14 +29,14 @@ export default function Showcase () {
                </figure>
                </div>
                <div className="card-content">
-               <h1 className="title is-size-4 is-size-5-touch app-demo-title">
+               <h1 className={`title is-size-4 is-size-5-touch ${style.appDemoTitle}`}>
                   Democratic Carpool Karaoke
-                  <span className="icon">
+                  <span className={`${style.icon}`}>
                      <a href="https://democratic-carpool-karaoke.herokuapp.com/">
                         <FontAwesomeIcon icon={faPlayCircle} className="fab has-text-link size" />
                      </a>
                   </span>
-                  <span className="icon">
+                  <span className={`${style.icon}`}>
                      <a href="https://github.com/DrCardamom/democratic-carpool-karaoke">
                        <FontAwesomeIcon icon={faGithub} className="fab has-text-link size" />
                      </a>
@@ -89,16 +89,16 @@ export default function Showcase () {
                   </figure>
                </div>
                <div className="card-content">  
-                  <h1 className="title is-size-4 is-size-5-touch app-demo-title">
+                  <h1 className={`title is-size-4 is-size-5-touch ${style.appDemoTitle}`}>
                      RoboRedux
-                     <span className="icon">
+                     <span className={`${style.icon}`}>
                         <a href="https://drcardamom.github.io/RoboRedux/">
-                           <FontAwesomeIcon icon={faPlayCircle} className="has-text-link size" />
+                           <FontAwesomeIcon icon={faPlayCircle} className={`has-text-link ${style.size}`} />
                         </a>
                      </span>
-                     <span className="icon">
+                     <span className={`${style.icon}`}>
                         <a href="https://github.com/DrCardamom/RoboRedux">
-                        <FontAwesomeIcon icon={faGithub} className="has-text-link size" />
+                        <FontAwesomeIcon icon={faGithub} className={`has-text-link ${style.size}`} />
                         </a>
                      </span>
                   </h1>
@@ -120,7 +120,7 @@ export default function Showcase () {
                         Also read &nbsp;
                      <Link to="/Intro-to-Redux/" className="has-text-link">
                         <FontAwesomeIcon icon={faBookmark} className="fas has-text-link"/>
-                        &nbsp; What is Redux.js?
+                        &nbsp; Intro to Redux.js
                      </Link>
                      </p>
                      </div>
@@ -139,21 +139,21 @@ export default function Showcase () {
                </figure>
                </div>
                <div className="card-content">
-               <h1 className="title is-size-4 is-size-5-touch app-demo-title">
+               <h1 className={`title is-size-4 is-size-5-touch ${style.appDemoTitle}`}>
                   Smart Brain
-                  <span className="icon">
+                  <span className={`${style.icon}`}>
                      <a href="https://drcardamom.github.io/RoboRedux/">
-                        <FontAwesomeIcon icon={faPlayCircle} className="has-text-link size" />
+                        <FontAwesomeIcon icon={faPlayCircle} className={`has-text-link ${style.size}`} />
                      </a>
                   </span>
-                  <span className="icon">
+                  <span className={`${style.icon}`}>
                      <a href="https://github.com/DrCardamom/smart-brain">
-                       <FontAwesomeIcon icon={faGithub} className="has-text-link size" />
+                       <FontAwesomeIcon icon={faGithub} className={`has-text-link ${style.size}`} />
                      </a>
                   </span>
-                  <span className="icon">
+                  <span className={`${style.icon}`}>
                      <a href="https://github.com/DrCardamom/smart-brain-api">
-                       <FontAwesomeIcon icon={faGithub} className="has-text-link size" />
+                       <FontAwesomeIcon icon={faGithub} className={`has-text-link ${style.size}`} />
                      </a>
                   </span>
                </h1>

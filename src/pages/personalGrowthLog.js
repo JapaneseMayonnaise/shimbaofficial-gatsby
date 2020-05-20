@@ -13,7 +13,7 @@ export default function PersonalGrowthLog ({data}) {
           <div className="hero-body">
             <div className="container">
               <h1 className="title is-size-3-desktop is-size-4-touch">
-                PersonalGrowth Log
+                Personal Growth Log
               </h1>
               <h2 className="subtitle">
               {/* { data.allMarkdownRemark.totalCount } posts */}

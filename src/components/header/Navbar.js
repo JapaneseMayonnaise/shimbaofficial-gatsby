@@ -23,7 +23,7 @@ class Navbar extends React.Component {
    render() {
       let { title } = this.props;
       return (
-         <nav className="navbar is-spaced same-layer is-transparent is-fixed-top" 
+         <nav className="navbar is-spaced is-transparent" 
               role="navigation" 
               aria-label="main navigation"
          >
