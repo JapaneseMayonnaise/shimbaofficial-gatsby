@@ -2,7 +2,6 @@
 title: "Lessons learned from making web app Democratic Carpool Karaoke"
 date: "2020-04-14"
 ---
-[Democratic Carpool Karaoke](https://democratic-carpool-karaoke.herokuapp.com/)
 
 ## What and why 
 DCK makes a mixed-generation playlist on user's Spotify account based on the year user and their friends were born. It may makes more sense if you just click [here](https://democratic-carpool-karaoke.herokuapp.com/) and try it out. Click [here](https://github.com/DrCardamom/democratic-carpool-karaoke) for Source code.
@@ -13,14 +12,8 @@ I made this application in March 2019 and it was the first full-stack applicatio
 
 I am writing this as of March 2020 so it is "a wee bit" late, but it taught me so many lessons and I would like to log as much as I can remember. Here we go!
 
-
-
 ## (1) What exactly is HTTP and what is HTTP servers?
-Simply put, HTTP is one of the data tranfer methods among FTP, IMAP, MQTT, Gopher etc. HTTP stands for HyperText Transfer Protocol, so as its name says, it is tranfer protocol, and it's a protocol designed to deliver contents over the internet. HTTPS is HTTP but more secure. Hence, HTTP servers are servers that deal with http requests(GET, POST and such) and deliver contents in JSON form. I know that
-
-> It runs on top of TCP/IP suite of the protocol
-
-and I did have an intense urge to dive into another layer of the internet but I decided to postpone digging into TCP/IP as I wanted to move onto actual coding. (That'll be whole another post)
+Simply put, HTTP is one of the data tranfer methods among FTP, IMAP, MQTT, Gopher etc. HTTP stands for HyperText Transfer Protocol, so as its name says, it is tranfer protocol, and it's a protocol designed to deliver contents over the internet. HTTPS is HTTP but more secure. Hence, HTTP servers are servers that deal with http requests(GET, POST and such) and deliver contents in JSON form.
 
 ## (2) How to write and work with servers
 Making this application gave me the much clearer idea of what servers do and how they work. Previously I only briefly knew what they did  - they serve contents upon user's request - but actually writing a server, even simple one such as 
@@ -35,7 +28,7 @@ and sending data back to the client side through HTTP got my understanding and f
 
 ## (3) How to work with APIs
 I really wanted to make something using API (in this post I am specifically talking about web APIs) because I knew I didn't fully understand yet what exactly APIs were nor what they did. Same as my understanding of servers. I knew what they did but I did't fully. I would google and read the typical description, something like 
-> [noun; computing] a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.
+> [ noun; computing ]  A set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.
 
 and would be left with so many question marks above my head.
 
@@ -122,11 +115,4 @@ It is incredibly powerful that you can write not only the user interfaces but al
 
 ***
 
-That's it! To be honest, if I'd written this note right after I made this app which is obvisouly what I should've done, there might probably be a few more things I'd want to log but these are all I could remember from the notebook on which I scribbled the app ideas and lots of flowcharts and things. I like this app not just because of tech stack I used, but because it solves the problem I faced and can relate to. Excited to work on another fun project like this one!
-***
-***
-Let me know if you noticed typos or have suggestions/advice. Would be very much appreciated.
-
-GitHub @DrCardamom / [website repo](https://github.com/DrCardamom/shimbaofficial)
-
-Email  <a href="mailto:shimba@posteo.net">shimba@posteo.net</a>
+If I'd written this note right after I made this app which is obvisouly what I should've done, there might've been a few more things I'd want to log but these are all I could remember from the notebook on which I scribbled the app ideas and lots of flowcharts and things. I like this app not just because of tech stack I used, but because it solves the problem I faced and can relate to. Excited to work on another fun project like this one!

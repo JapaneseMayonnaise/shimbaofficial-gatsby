@@ -1,14 +1,14 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../../sass/mystyles.scss"
-import "./growthLogTemplate.module.css"
+import style from "./growthLogTemplate.module.css"
 
 export default function GrowthLog({ data }) {
   const post = data.markdownRemark
-  console.log("html", post.html);
   
+  // console.log("html", post.html);
   return (
     <Layout>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
@@ -16,20 +16,31 @@ export default function GrowthLog({ data }) {
           <div className="container">
             <article>
               <h1 className="title is-size-3-desktop is-size-4-touch">
-                { post.frontmatter.title } 
+                {post.frontmatter.title} 
               </h1>
-              <h2 className="subtitle is-size-5-desktop is-size-5-touch">
-                { post.frontmatter.date } &nbsp; {post.timeToRead} min read
+              <h2 className="subtitle is-size-5-desktop is-size-6-touch">
+                {post.frontmatter.date} &nbsp; {post.timeToRead} min read
               </h2>
               <span className="is-size-5-desktop is-size-6-touch">
                 <div 
-                  dangerouslySetInnerHTML={{ __html: post.html}} 
+                  dangerouslySetInnerHTML={{__html: post.html}} 
                 />
               </span>
+              <hr />
+              <div>
+                <p className="is-size-5-desktop is-size-6-touch">
+                  Typos/comments/suggestions are welcomed on <a href="https://github.com/DrCardamom/shimbaofficial-gatsby/issues">GitHub issues</a>
+                </p>
+                <Link to="/technicalGrowthLog/">
+                  <button className={`button is-link is-outlined ${style.button}`}>
+                    Back to the list of Growth Log
+                  </button>
+                </Link>
+              </div>
             </article>
           </div>
         </section>
-    </Layout>
+    </Layout> 
   )
 }
 
@@ -42,7 +53,6 @@ export const query = graphql`
           title
         }
         timeToRead
-
       }  
   }
 `

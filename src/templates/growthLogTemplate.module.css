@@ -1,42 +1,91 @@
-span > div > h2 {
-   font-size: 1.7rem;
-   font-weight: bold;
-   margin-top: 20px;
-}
-
-span > div > h3 {
-   font-size: 1.4rem;
-   font-weight: bold;
-   margin-top: 17px;
-
-}
-
-span > div > h4 {
-   font-size: 1.2rem;
-   font-weight: bold;
-   margin-top: 17px;
-
-}
-
-
-span > div > pre {
-   margin: 10px 0;
-}
-
 a:hover {
    color: #138000;
 }
 
-span > div > img {
-   margin: 20px;
+span > div > p {
+   margin-top: 6px;
 }
 
 span > div > ul {
    list-style-type: disc;
    list-style-position: inside;
+   margin: 10px 0;
 }
 
 span > div > ol {
-   list-style-type: disc;
+   list-style-type: decimal;
    list-style-position: inside;
+   margin: 10px 0;
+}
+
+span > div > blockquote {
+   background: #f9f9f9;
+   border-left: 10px solid #ccc;
+   margin: 1.5em 10px;
+   padding: 0.5em 10px;
+   quotes: "\201C""\201D""\2018""\2019";
+   font-style: italic;
+ }
+
+ span > div > blockquote p {
+   display: inline;
+ }
+
+ span > div > p > span > a > img {
+   padding:5px 0 !important;
+ }
+
+ .button {
+   margin-top: 10px;
+ }
+ 
+ span > div > pre {
+   margin: 10px 0;
+}
+
+@media screen and (min-width: 1024px) {
+ 
+   span > div > h2 {
+      font-size: 1.7rem;
+      font-weight: bold;
+      margin-top: 20px;
+   }
+   
+   span > div > h3 {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-top: 17px;
+   
+   }
+   
+   span > div > h4 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-top: 17px;
+   
+   }
+   
+}
+   
+@media screen and (max-width: 1024px) {
+ 
+   span > div > h2 {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-top: 20px;
+   }
+
+   span > div > h3 {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-top: 17px;
+
+   }
+
+   span > div > h4 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-top: 17px;
+
+   }
 }

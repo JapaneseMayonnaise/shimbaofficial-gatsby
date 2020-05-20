@@ -1,17 +1,32 @@
 ---
-title: "How to Redux.js"
-date: "2020-04-20"
+title: "Intro to Redux.js"
+date: "2020-03-16"
 ---
 
-[RoboRedux](https://drcardamom.github.io/RoboRedux/)
+[RoboRedux demo](https://drcardamom.github.io/RoboRedux/)
 
-[Source code](https://github.com/DrCardamom/RoboRedux)
+[GitHub repo](https://github.com/DrCardamom/RoboRedux)
 
-
-## What is Redux and when to use it
+## (1) What is Redux and when to use it?
 Redux manages the state, so it's userful when your application is large and you need to manage many states and share them between multiple containers.
 
-## How Redux works 
+## (2) Three Redux principles
+### 1. Single source of truth - bundle state in one object ```store```
+   
+   You'd have one single object ```store``` that describes the entire ```state``` of the app.
+
+### 2. ```state``` is ready only
+
+   Instead of updating a ```state```, in Redux you create a new ```state``` every time state changes, like below
+
+   ![example of creatting a new state instead of modifying it](./images/redux-read-only.png)
+
+   This encourages immutabililty and prevents unexpected errors.
+
+### 3. Pure functions
+   Changes are taken care of by pure functions called reducers in Redux.
+
+## (3) How Redux works 
 ### 1. Actions (+ middleware)
 Actions such as 'click a submit button' or 'fetch API call' need to be registred as action and dispatched to be triggered.
 
@@ -29,27 +44,3 @@ Reducers take actions and return state, which gets passed to store.
 
 ### 4. Changes happen
 Once store is updated, React detects the change(s) and updates the view layer. These 4 stages happen only from action to view layer update, which is called a uni-directional data flow.
-
-## Three Redux principles
-### 1. Single source of truth - bundle state in one object ```store```
-   
-   You'd have one single object ```store``` that describes the entire ```state``` of the app.
-
-### 2. ```state``` is ready only
-
-   Instead of updating a ```state```, in Redux you create a new ```state``` every time state changes, like below
-
-   ![example of creatting a new state instead of modifying it](./images/redux-read-only.png)
-
-   This encourages immutabililty and prevents unexpected errors.
-
-### 3. Pure functions
-   Changes are taken care of by pure functions called reducers in Redux.
-
-***
-***
-Let me know if you noticed typos or have suggestions/advice. Would be very much appreciated.
-
-GitHub @DrCardamom / [website repo](https://github.com/DrCardamom/shimbaofficial)
-
-Email  <a href="mailto:shimba@posteo.net">shimba@posteo.net</a>
