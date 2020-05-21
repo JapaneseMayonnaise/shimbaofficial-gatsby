@@ -68,7 +68,7 @@ export default function Showcase () {
                   </p>
                   <p>
                      Also read &nbsp;
-                  <Link to="/what-i-learned-from-making-my-web-app-democratic-carpool-karaoke/ "className="has-text-link">
+                  <Link to="/growthLogResources/posts/lessons-learned-from-making-web-app-democratic-carpool-karaoke/ "className="has-text-link">
                      <FontAwesomeIcon icon={faBookmark} className="fab has-text-link"/>
                      &nbsp;Lessons learned from making web app "Democratic Carpool Karaoke"
                   </Link>
@@ -118,7 +118,7 @@ export default function Showcase () {
                      </p>
                      <p>
                         Also read &nbsp;
-                     <Link to="/Intro-to-Redux/" className="has-text-link">
+                     <Link to="/growthLogResources/posts/Intro-to-Redux/" className="has-text-link">
                         <FontAwesomeIcon icon={faBookmark} className="fas has-text-link"/>
                         &nbsp; Intro to Redux.js
                      </Link>
@@ -182,7 +182,7 @@ export default function Showcase () {
                   </p>
                   <p>
                      Also read &nbsp;
-                  <Link to="/what-i-learned-from-making-my-web-app-smart-brain/" className="has-text-link">
+                  <Link to="/growthLogResources/posts/lessons-learned-from-making-web-app-smart-brain/" className="has-text-link">
                      <FontAwesomeIcon icon={faBookmark} className="fas has-text-link"/>
                      &nbsp; Lessons learned from making web app "Smart Brain"
                   </Link>
