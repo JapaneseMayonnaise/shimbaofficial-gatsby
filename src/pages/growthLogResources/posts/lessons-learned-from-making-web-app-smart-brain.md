@@ -1,6 +1,6 @@
 ---
 title: "Lessons learned from making web app Smart Brain"
-date: "2020-04-17"
+date: "2020-03-29"
 ---
 
 [Smart Brain Demo](https://drcardamom.github.io/smart-brain/)

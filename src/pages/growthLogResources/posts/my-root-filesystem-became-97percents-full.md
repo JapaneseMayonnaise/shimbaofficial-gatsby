@@ -1,6 +1,6 @@
 ---
 title: "My root filesystem became 97% full within 3 months and I had to migrate my /home to separate partition"
-date: "2020-04-02"
+date: "2020-04-13"
 ---
  Never did I ever think I would spill a glass of water on my precious MacBook Pro. But I did, on one of the worst day of the year for me to do so; 24th December. On 25th most stores would be closed, 26th was a boxing day and most repairers would be still closed and I had something due on the 27th.
 
@@ -16,7 +16,7 @@ date: "2020-04-02"
 - Thoguhts
 
 ## (1) My laptop spec
-My laptop has hybrid memory system where it has 32GB SSD and 512GB PCIe SSD. So in total I had roughly 540GB memory space, which was obviously more than enough. If I'd had a ton of pictures or downloaded movies, I would've only moved those to external HDD but all I had on this machine were local directory for my JavaScript projects. And yet, my root directory said it's full already only after 3 months. I use Pop!OS only because my leptop somehow kept rejecting everything else I tired to install - Ubuntu, Linux Mint, Debian, Manjaro,CentOS. It's still a mystery till this day.
+My laptop has hybrid memory system where it has 32GB SSD and 512GB PCIe SSD. So in total I had roughly 540GB memory space, which was obviously more than enough. If I'd had a ton of pictures or downloaded movies, I would've only moved those to external HDD but all I had on this machine were local directory for my JavaScript projects. And yet, my root directory said it's full already only after 3 months. My OS is Pop!OS, only because my leptop somehow kept rejecting everything else I tired to install - Ubuntu, Linux Mint, Debian, Manjaro,CentOS. (I still haven't figured out why, it's a mystery till this day.)
 
 ## (2) How I identified the cause of the issue
 On [Ask!Ubuntu](https://askubuntu.com/questions/767267/deleting-core-dump-folders-files-in-root-partition-for-space), someone suggested this command ```sudo du -hx / | sort -h``` that shows major files, its size, and its location to see what exactly was consuming the partition mounted on ```/```

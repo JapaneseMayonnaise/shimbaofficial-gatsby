@@ -1,6 +1,6 @@
 ---
 title: "Lessons learned from making web app Democratic Carpool Karaoke"
-date: "2020-04-14"
+date: "2020-04-04"
 ---
 DCK makes a mixed-generation playlist on user's Spotify account based on the year user and their friends were born. It may makes more sense if you just click [here](https://democratic-carpool-karaoke.herokuapp.com/) and try it out. Click [here](https://github.com/DrCardamom/democratic-carpool-karaoke) for Source code.
 
