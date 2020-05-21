@@ -2,16 +2,12 @@
 title: "Lessons learned from making web app Democratic Carpool Karaoke"
 date: "2020-04-14"
 ---
-
-## What and why 
 DCK makes a mixed-generation playlist on user's Spotify account based on the year user and their friends were born. It may makes more sense if you just click [here](https://democratic-carpool-karaoke.herokuapp.com/) and try it out. Click [here](https://github.com/DrCardamom/democratic-carpool-karaoke) for Source code.
 
 The initial inspiration was my bitter-sweet childhood experience; I wanted to listen to Pokemon songs so badly but whenever I was in a car with my mom, I had no choice but to be forced to listen to ABBA or Cyndy Lauper (Yes they are great, but I was too young to appreciate them). It was the era of casette tape - it required some skills to handle that stuff and I was not "qualified" just yet for the complex operations - it would've been absolutely too much work for her to make a mix tape of Pokemon and Cyndy Lauper, each song in turn. That's what I made possible with this app. All you have to do is to click 4 times and this app creates a perfectly fair playlist that prevents musical dictatorship.
 
-I made this application in March 2019 and it was the first full-stack application for which I wrote the server side with Node.js/Express.js as well as the client side with React.js.
-
-I am writing this as of March 2020 so it is "a wee bit" late, but it taught me so many lessons and I would like to log as much as I can remember. Here we go!
-
+Here are some important lessons and tech stacks I learned through the development of this app.
+    
 ## (1) What exactly is HTTP and what is HTTP servers?
 Simply put, HTTP is one of the data tranfer methods among FTP, IMAP, MQTT, Gopher etc. HTTP stands for HyperText Transfer Protocol, so as its name says, it is tranfer protocol, and it's a protocol designed to deliver contents over the internet. HTTPS is HTTP but more secure. Hence, HTTP servers are servers that deal with http requests(GET, POST and such) and deliver contents in JSON form.
 

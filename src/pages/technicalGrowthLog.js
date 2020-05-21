@@ -61,7 +61,7 @@ query {
         fields {
           slug
         }
-        excerpt
+        excerpt(pruneLength: 380)
         timeToRead
         html
       }

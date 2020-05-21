@@ -63,5 +63,5 @@ You can also create a path/slug from a file name using ```gatsby-source-filesyst
 ### 👎 Cons
 No cons. As far as my needs for SSG went, Gatsby offered all tools and functionalities I needed for this project. APIs were simple to use, plenty of documentations and demos, no conflicts while deploying to Netlify.
 
-#### (4) Thoughts
-Making a responsive interface is really fast and easy with Bulma. I like Bulma X Gatsby combo quite a lot.
+## (3) Thoughts
+Making a responsive interface is really fast and easy with Bulma, and Bulma and Gatsby are quite conpatible. I would 100% recommend you use them together to rich static websites.
