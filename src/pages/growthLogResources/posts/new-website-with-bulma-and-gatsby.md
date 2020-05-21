@@ -56,7 +56,7 @@ It was natural for me to choose Gatsby over other SSG such as Jekyll or Hugo sin
 Nothing did I miss more than components. I took it for granted to be able to break down each elements of the page into smaller pieces and to re-use them whenever you need for a long time. When I made the website landing page mock-up with HTML and Bulma only, it would be no exaggeration to say I was "disturbed" by how many repetition there were. 
 
 #### 2. Easy routing & programatically generate a page
-Gatsby offers a couple of ways to create a page but the easiest one is just making a ```PAGENAME.js``` in ```page``` directory. and once you have a page created, you can move between them using ```<Link></LINK>``` which esentially gets rendered as <a> tag.
+Gatsby offers a couple of ways to create a page but the easiest one is just making a ```PAGENAME.js``` in ```page``` directory. and once you have a page created, you can move between them using ```<Link></Link>``` which esentially gets rendered as ```<a>``` tag.
 
 You can also create a path/slug from a file name using ```gatsby-source-filesystem``` as shown [here](https://www.gatsbyjs.org/docs/mdx/programmatically-creating-pages/) which I did for my blog posts.
 
