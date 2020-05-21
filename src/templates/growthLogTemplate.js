@@ -6,9 +6,9 @@ import "../../sass/mystyles.scss"
 import style from "./growthLogTemplate.module.css"
 
 export default function GrowthLog({ data }) {
+
   const post = data.markdownRemark
   
-  // console.log("html", post.html);
   return (
     <Layout>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
@@ -33,7 +33,7 @@ export default function GrowthLog({ data }) {
                 </p>
                 <Link to="/technicalGrowthLog/">
                   <button className={`button is-link is-outlined ${style.button}`}>
-                    Back to the list of Growth Log
+                    Go back to the list of Growth Log
                   </button>
                 </Link>
               </div>

@@ -19,6 +19,7 @@ export default function LatestPosts() {
                         {/* <p className="subtitle is-size-5 is-size-6-touch">
                            {props.excerpt} 
                         </p> */}
+                        
                   </div>	
                </div>  
             </article>

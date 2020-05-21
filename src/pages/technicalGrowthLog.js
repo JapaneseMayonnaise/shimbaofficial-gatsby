@@ -35,7 +35,6 @@ export default function TechnicalGrowthLog ({data}) {
                     <div className={style.excerpt}>
                       <p className="is-size-5-desktop is-size-6-touch">
                         {node.excerpt}
-                        {node.excerpt}
                       </p>
                     </div>
                     <p>{node.frontmatter.date} &nbsp; {node.timeToRead} mins read </p>
