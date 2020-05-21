@@ -6,7 +6,7 @@ As I code and solve the operating system issues with Pop!_OS more, I started wan
 
 If you are interested in my operating system <del>struggle</del> learning journey, you can also read
 
-[My root filesystem became 97% full within 2 months and I ended up remounting /home elsewhere]()
+[My root filesystem became 97% full within 3 months and I had to migrate my /home to separate partition](https://shimba.dev/growthLogResources/posts/my-root-filesystem-became-97percents-full/)
 
 [My boot filesystem suddenly got 100% full and this is how I resolved]()
 
