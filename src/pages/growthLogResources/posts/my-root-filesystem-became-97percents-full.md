@@ -1,6 +1,6 @@
 ---
 title: "My root filesystem became 97% full within 3 months and I had to migrate my /home to separate partition"
-date: "2020-03-15"
+date: "2020-04-02"
 ---
  Never did I ever think I would spill a glass of water on my precious MacBook Pro. But I did, on one of the worst day of the year for me to do so; 24th December. On 25th most stores would be closed, 26th was a boxing day and most repairers would be still closed and I had something due on the 27th.
 
@@ -13,6 +13,7 @@ date: "2020-03-15"
 - How I identified the cause of the issue
 - How I re-mounted /home
 - Overheat issue
+- Thoguhts
 
 ## (1) My laptop spec
 My laptop has hybrid memory system where it has 32GB SSD and 512GB PCIe SSD. So in total I had roughly 540GB memory space, which was obviously more than enough. If I'd had a ton of pictures or downloaded movies, I would've only moved those to external HDD but all I had on this machine were local directory for my JavaScript projects. And yet, my root directory said it's full already only after 3 months. I use Pop!OS only because my leptop somehow kept rejecting everything else I tired to install - Ubuntu, Linux Mint, Debian, Manjaro,CentOS. It's still a mystery till this day.
@@ -54,7 +55,17 @@ I personally thought the most imporatant part that could save you if anything go
 
 From command line I recovered the previous fstab and went back into my old ```/home``` and did the whole process again.
 
-## (4) Thoughts
+## (4) Overheat issue
+Around the time when my Pop!Os started telling me that I was running out of memory space in the root filesystem, I noticed my machine would get heated excessively. Since both issues emerged almost same time, I just assumed the overheating was caused by pushed memory. Sadly, the heat issue persisted even after I cleared out my root so I had to figure that out as well.
+
+Apparently something was using my CPUs so much but in a weird inconsistent way
+![CPU being used](./images/cpu-burning.png)
+
+First I thought my machine is infected with virus so I scanned using multiple virus scanner but nothing major was detected. Then I came across this CLI application called [htop](https://hisham.hm/htop/) with which I finally got to see what exactly was using up my CPUs; it was ```packagekitd```.
+
+So I looked up and found [this issue](https://github.com/pop-os/pop/issues/83). Finally! ```packagekitd``` was indeed what was causing the overheating. In fact, the moment I uninstalled it, it stopped heating at all.
+
+## (5) Thoughts
 Although it took me 2 days to figure all this out before I actually made up my mind and move ```/home``` to another partition which put me behind my shcedule, I am happy that I got to learn all these new commands, Linux file systems and memory allocation system. This is something I probably wouldn't have to deal with if I was still a mac user, but this is what I wanted when decided to not buy another MacBook and experiment with Linux distros. I know my learning style is through actual trouble shooting than just reading documentations so this was a great excercise. 
 
 My mentor [Ivan](https://www.linkedin.com/in/ivan-malone-52191011b/) would often say "You can be a okay developer without knowing well about operating systems and computers, but if you want to be a really good one, you gotta know what's going on under the hood". 
