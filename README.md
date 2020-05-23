@@ -7,6 +7,9 @@ My name is Elliot Shimba. I go by Shimba and he/they is my preferred pronouns.
  and you know what? As of 23 May 2020,
 #  🎉I'm looking for a full-time React developer opportunity 🎉 
 Exciting, eh?
+
+I am currently located in Toronto, Canada but would be happy to work remotely.
+
 To get in touch with me, you can either
 email me  shimba@posteo.net
 or send me a message on LinkedIn: https://www.linkedin.com/in/eshimba/
