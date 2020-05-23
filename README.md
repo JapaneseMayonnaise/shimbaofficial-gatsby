@@ -3,12 +3,12 @@
 ### Heya! Welcome to my repo for my website shimba.dev💻🌈
 My name is Elliot Shimba. I go by Shimba and he/they is my preferred pronouns.
 
-## I'm a full-stack web developer who's passionate about PERN & MERN stacks, FOSS, operating systems, early-morning gym and sourdough baking.
+### I'm a full-stack web developer who's passionate about PERN & MERN stacks, FOSS, operating systems, early-morning gym and sourdough baking.
  and you know what? As of 23 May 2020,
-##  🎉I'm looking for a full-time job 🎉 
+###  🎉I'm looking for a full-time job 🎉 
 
 
-### 🏠 About my website
+## 🏠 About my website
 
 This repo contains all the content source for my website. You will find all the original markdown files and high-quality images that you can download. For the best experience, it's best to read these files on [my website](www.shimba.dev).
 
@@ -41,8 +41,11 @@ gatsby serve
 
 ## :wave: Be my dev buddy
 LinkedIn: https://www.linkedin.com/in/eshimba/
+
 Medium:  https://medium.com/@elliotshimba
+
 DEV : https://dev.to/drcardamom
+
 StackOverflow: https://stackoverflow.com/users/11227880/shimba?tab=profile
 
 ## 💕 Download & Share
