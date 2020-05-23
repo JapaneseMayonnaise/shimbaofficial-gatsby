@@ -1,4 +1,6 @@
-# shimba.dev - ShimbaOfficial -
+# shimba.dev
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6c57d42b-1c96-4c8f-abb0-fc1c3e4e0d04/deploy-status)](https://app.netlify.com/sites/shimba/deploys)
 
 ### Heya! Welcome to my repo for my website shimba.dev💻🌈
 My name is Elliot Shimba. I go by Shimba and he/they is my preferred pronouns.
@@ -19,7 +21,7 @@ or send me a message on LinkedIn: https://www.linkedin.com/in/eshimba/
 
 ## 🏠 About my website
 
-This repo contains all the content source for my website. You will find all the original markdown files and high-quality images that you can download. For the best experience, it's best to read these files on [my website](www.shimba.dev).
+This repo contains all the content source for my website. It's my home on the internet. You will find all the original markdown files and high-quality images that you can download. For the best experience, it's best to read these files on [my website](www.shimba.dev).
 
 ## 🧰 Tech stacks
 + Bulma - https://bulma.io/
