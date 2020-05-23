@@ -12,6 +12,13 @@ My name is Elliot Shimba. I go by Shimba and he/they is my preferred pronouns.
 
 This repo contains all the content source for my website. You will find all the original markdown files and high-quality images that you can download. For the best experience, it's best to read these files on [my website](www.shimba.dev).
 
+## 🧰 Tech stacks
++ Bulma - https://bulma.io/
++ React.js - https://reactjs.org/
++ Gatsby - https://www.gatsbyjs.org/
++ GraphQL - https://graphql.org/
++ Sass - https://sass-lang.com/
+
 ## 📥 Installaton instruction
 If you like my website, you are welcome to use it as a template or base of your own website! Especially if you aew new, I personally think copying is a good way to start.
 
@@ -40,6 +47,8 @@ gatsby serve
 ```
 
 ## :wave: Be my dev buddy
+I am a people person and love working in a team! Feel free to say hi, be my friend!
+
 LinkedIn: https://www.linkedin.com/in/eshimba/
 
 Medium:  https://medium.com/@elliotshimba
