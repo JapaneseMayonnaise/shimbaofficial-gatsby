@@ -4,7 +4,7 @@ date: "2020-05-23"
 ---
 I have a confession: I did not know how to update npm dependencies until today. I know, it's shameful. But the good news is now I do! 
 
-I wanted to improve [Democratic Carpool Karaoke](https://democratic-carpool-karaoke.herokuapp.com/) but alas, some of depencies were a bit too old so I looked up how to <del>pretend everything is okay when it's not</del> how to upgrade npm dependencies. I'd like to leave some memos for my future self.
+I wanted to improve [Democratic Carpool Karaoke](https://democratic-carpool-karaoke.herokuapp.com/) but alas, some of depencies were a bit too old so I looked up how <del> to pretend everything is okay when it's not</del> to upgrade npm dependencies. I'd like to leave some memos for my future self.
 
 ## Contents
 + How to read npm version - Major.Minor.Patch
