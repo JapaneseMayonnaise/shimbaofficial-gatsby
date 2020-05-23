@@ -7,9 +7,11 @@ I have a confession: I did not know how to update npm dependencies until today. 
 I wanted to improve [Democratic Carpool Karaoke](https://democratic-carpool-karaoke.herokuapp.com/) but alas, some of depencies were a bit too old so I looked up how to <del>pretend everything is okay when it's not</del> how to upgrade npm dependencies. I'd like to leave some memos for my future self.
 
 ## Contents
-+ 
-+ 
-+ 
++ How to read npm version - Major.Minor.Patch
++ Those intimidating ```^``` and ```~```
++ ``` npm install ``` doesn't necesarily do all the job for you
++ How to update all dependencies
++ How to update dependencies with major changes
 
 ## (1) How to read npm version - Major.Minor.Patch
 Example: ```v17.11.5```
