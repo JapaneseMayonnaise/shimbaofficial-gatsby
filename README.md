@@ -29,7 +29,7 @@ This repo contains all the content source for my website. You will find all the 
 + Sass - https://sass-lang.com/
 
 ## 📥 Installaton instruction
-If you like my website, you are welcome to use it as a template or base of your own website! Especially if you aew new, I personally think copying is a good way to start.
+If you like my website, you are welcome to use it as a template or base of your own website! Especially if you are a new  baby web dev, I personally think copying is a good way to start🐣
 
 The only thing I kindly ask is that you edit or claim any of my contents as yours. This means you can't use any gifs, images, my blog posts "Growth Log", anything I created. I probably wouldn't sue you but it's just not cool, yknow?
 ```
