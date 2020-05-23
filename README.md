@@ -4,8 +4,9 @@
 
 ### Heya! Nice to e-meet you. My name is Elliot Shimba. 
 
+### I go by Shimba and he/they is my preferred pronouns.💻🌈
 
-### I'm a full-stack web developer who's passionate about PERN & MERN stacks, FOSS, operating systems, early-morning gym and sourdough baking.
+### I'm a full-stack web developer who is passionate about PERN & MERN stacks, FOSS, operating systems, early-morning gym and sourdough baking.
  and you know what? As of 23 May 2020,
 #  🎉I'm looking for a full-time React developer opportunity 🎉 
 Exciting, eh?
