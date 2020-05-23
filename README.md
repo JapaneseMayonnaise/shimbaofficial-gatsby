@@ -2,8 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6c57d42b-1c96-4c8f-abb0-fc1c3e4e0d04/deploy-status)](https://app.netlify.com/sites/shimba/deploys)
 
-### Heya! Welcome to my repo for my website shimba.dev💻🌈
-My name is Elliot Shimba. I go by Shimba and he/they is my preferred pronouns.
+### Heya! Nice to e-meet you. My name is Elliot Shimba. 
+
 
 ### I'm a full-stack web developer who's passionate about PERN & MERN stacks, FOSS, operating systems, early-morning gym and sourdough baking.
  and you know what? As of 23 May 2020,
