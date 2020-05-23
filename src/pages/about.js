@@ -42,9 +42,9 @@ export default function About({data}) {
                            Nice to e-meet you, I'm Elliot Shimba. 
                         </h1>
                         <h2 className={`title is-size-2 is-size-4-touch ${style.textVerticalSpacing}`}>
-                           A Toronto-based full-stack web developer, <br />
-                           strong advocate of diversity in tech community, <br />
-                           avid sourdough-baker.
+                           I'm a Toronto-based full-stack web developer, <br />
+                           a strong advocate of diversity in tech community, <br />
+                           and an avid sourdough-baker.
                         </h2>
                      </Description>
                   </div>
@@ -61,12 +61,12 @@ export default function About({data}) {
                            such as React.js, Node.js, TypeScript, Redux.js, Gatsby, PostgreSQL, MongoDB, Jest, Git and more. 
                            <br />                           
                            <br />                           
-                           As a trans person of colour, it is also my important mission to be a safer person to work with and
+                           As a trans person of colour, I consciously strive to be a safer person to work with and
                            create a safer workplace for the fellow queer/poc/people with disabilities.
-                           Although things have improved for us these past several years like mentioned in
+                           Although things have improved for us these past several years as mentioned in
                            <a href="https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/"> here </a> 
-                           and <a href="https://www.codethink.co.uk/articles/2019/acceptance-strife-and-progress-in-the-lgbtiq-and-open-source-communities/"> there</a>,
-                           I believe tech and open source community can be even more inclusive and diversed with our continuous effort.
+                           and <a href="https://www.codethink.co.uk/articles/2019/acceptance-strife-and-progress-in-the-lgbtiq-and-open-source-communities/"> here</a>,
+                           I believe the tech and open source community can be even more inclusive and diversed with our continuous effort.
                         </h2>
                      </Description>
                      <Image
@@ -75,7 +75,7 @@ export default function About({data}) {
                      />
                      <Description>
                         <h2 className="is-size-4 is-size-5-touch">
-                           Besides things mentioned above, I am also keen on<br />
+                           Besides the things mentioned above, I am also keen on<br />
                         </h2>
                         <p className="is-size-4 is-size-5-touch">
                            <ul className={`${style.disc}`}>
@@ -98,7 +98,7 @@ export default function About({data}) {
                      </Image>
                      <Description>
                        <h2 className="is-size-4 is-size-5-touch">
-                           Oh, you same? Excellent! Let's make it heppen together or let me contribute to your project. <br />
+                           Oh, you too? Excellent! Let's make it happen together or let me contribute to your project. <br />
                            To get in touch, you can
                            <a href="mailto:shimba@posteo.net"> email me </a>
                            or message me on
