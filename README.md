@@ -1,18 +1,18 @@
 # shimba.dev - ShimbaOfficial -
 
-## Heya! Welcome to my repo for my website shimba.dev💻🌈
+### Heya! Welcome to my repo for my website shimba.dev💻🌈
 My name is Elliot Shimba. I go by Shimba and he/they is my preferred pronouns.
 
-#### I'm a full-stack web developer who's passionate about PERN & MERN stacks, FOSS, operating systems, early-morning gym and sourdough baking.
+### I'm a full-stack web developer who's passionate about PERN & MERN stacks, FOSS, operating systems, early-morning gym and sourdough baking.
  and you know what? As of 23 May 2020,
-####  🎉I'm looking for a full-time job 🎉 
-##### Excitiing, eh? 
+###  🎉I'm looking for a full-time job 🎉 
 
-### About the website
+
+### 🏠 About my website
 
 This repo contains all the content source for my website. You will find all the original markdown files and high-quality images that you can download. For the best experience, it's best to read these files on [my website](www.shimba.dev).
 
-### Installaton instruction
+### 📥 Installaton instruction
 If you like my website, you are welcome to use it as a template or base of your own website! Especially if you aew new, I personally think copying is a good way to start.
 
 The only thing I kindly ask is that you edit or claim any of my contents as yours. This means you can't use any gifs, images, my blog posts "Growth Log", anything I created. I probably wouldn't sue you but it's just not cool, yknow?
