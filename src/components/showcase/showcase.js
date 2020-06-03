@@ -24,7 +24,7 @@ export default function Showcase () {
                <div className="card-image">
                <figure className="image is-4by3">
                      <a href="https://democratic-carpool-karaoke.herokuapp.com/">
-                     <img src='https://thumbs.gfycat.com/RaggedSadCarp-size_restricted.gif' alt="democratickarpoolkaraoke demo" />
+                     <img src='https://thumbs.gfycat.com/SpicyCheapBull-size_restricted.gif' alt="democratickarpoolkaraoke demo" />
                      </a>
                </figure>
                </div>
