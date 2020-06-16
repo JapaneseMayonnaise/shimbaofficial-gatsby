@@ -142,7 +142,7 @@ export default function Showcase () {
                <h1 className={`title is-size-4 is-size-5-touch ${style.appDemoTitle}`}>
                   Smart Brain
                   <span className={`${style.icon}`}>
-                     <a href="https://drcardamom.github.io/RoboRedux/">
+                     <a href="https://drcardamom.github.io/smart-brain/">
                         <FontAwesomeIcon icon={faPlayCircle} className={`has-text-link ${style.size}`} />
                      </a>
                   </span>
