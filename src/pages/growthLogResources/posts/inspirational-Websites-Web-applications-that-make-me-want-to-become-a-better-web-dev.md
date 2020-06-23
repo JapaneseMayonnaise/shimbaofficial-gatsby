@@ -9,7 +9,7 @@ People & Things that keep me going.
 
 [Queering The Map](https://www.queeringthemap.com/)
 
-[Setify] (https://setify.co/)
+[Setify](https://setify.co/)
 
 
 ## Websites
