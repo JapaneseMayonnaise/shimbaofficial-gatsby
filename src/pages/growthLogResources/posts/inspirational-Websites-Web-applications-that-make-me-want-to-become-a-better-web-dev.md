@@ -4,25 +4,29 @@ date: "2020-06-23"
 ---
 People & Things that keep me going.
 
-### Websites
+## Web Applications
+[Six Degrees Of Kayne West](https://sixdegreesofkanyewest.com/)
+
+
+## Websites
 [Make Noise Co.](http://www.makenoisemusic.com/)
 
 [Andrew MacCarthy](http://andrevv.com/)
 
 [SOAP](https://soap-shop.ca/)
 
-[WE AND THE COLOR](https://weandthecolor.com/)
 
-
-### Web Applications
-[Six Degrees Of Kayne West](https://sixdegreesofkanyewest.com/)
-
-
-### Web Platforms
+## Web Platforms
 [Glitch](https://glitch.com/)
 
+[Electronic Frontier Foundation](https://www.eff.org/)
 
-### Activists, writers, creators
+[Al Jazeela](https://www.aljazeera.com/)
+
+[Bandcamp](https://bandcamp.com/)
+
+
+## Activists, writers, creators
 [Edward Snowden](https://twitter.com/snowden)
 
 [Chelsea Manning](https://twitter.com/xychelsea)
@@ -34,7 +38,7 @@ People & Things that keep me going.
 
 My mom - though she doesn't have a edgy website nor twitter account
 
-### Companies
+## Companies
 [Ayogo](https://ayogo.com/)
 
 [Keela](https://www.keela.co/)
