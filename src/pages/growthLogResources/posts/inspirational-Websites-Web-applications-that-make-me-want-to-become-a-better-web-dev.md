@@ -34,7 +34,7 @@ People & Things that keep me going.
 [Bandcamp](https://bandcamp.com/)
 
 
-## Activists & creators
+## Activists & Creators
 [Dr. Maya Angelou](https://www.mayaangelou.com/)
 
 [Rebecca Sugar](https://twitter.com/rebeccasugar)
