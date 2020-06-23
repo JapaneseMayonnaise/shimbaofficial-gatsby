@@ -7,6 +7,10 @@ People & Things that keep me going.
 ## Web Applications
 [Six Degrees Of Kayne West](https://sixdegreesofkanyewest.com/)
 
+[Queering The Map](https://www.queeringthemap.com/)
+
+[Setify] (https://setify.co/)
+
 
 ## Websites
 [Make Noise Co.](http://www.makenoisemusic.com/)
@@ -17,28 +21,38 @@ People & Things that keep me going.
 
 
 ## Web Platforms
-[Glitch](https://glitch.com/)
+[DEV](https://dev.to/)
+
+[Queer Tech](https://www.queertech.org/)
 
 [Electronic Frontier Foundation](https://www.eff.org/)
+
+[Glitch](https://glitch.com/)
 
 [Al Jazeela](https://www.aljazeera.com/)
 
 [Bandcamp](https://bandcamp.com/)
 
 
-## Activists, writers, creators
+## Activists & creators
+[Dr. Maya Angelou](https://www.mayaangelou.com/)
+
+[Rebecca Sugar](https://twitter.com/rebeccasugar)
+
 [Edward Snowden](https://twitter.com/snowden)
+
+[Viktor Belmont](https://www.huffpost.com/entry/an-interview-with-awardwi_b_7684498)
 
 [Chelsea Manning](https://twitter.com/xychelsea)
 
 [Laura Poitras](https://theintercept.com/staff/laura-poitras/)
 
-[Rebecca Sugar](https://twitter.com/rebeccasugar)
+[Logic](https://www.youtube.com/channel/UCYtWSZWHYPbmwsh2CEUyMrQ)
 
 
-My mom - though she doesn't have a edgy website nor twitter account
+## Organizations & Companies
+[Free Geek Vancouver](https://www.freegeekvancouver.org/)
 
-## Companies
 [Ayogo](https://ayogo.com/)
 
-[Keela](https://www.keela.co/)
+[Keela](https://www.keela.co/)   
