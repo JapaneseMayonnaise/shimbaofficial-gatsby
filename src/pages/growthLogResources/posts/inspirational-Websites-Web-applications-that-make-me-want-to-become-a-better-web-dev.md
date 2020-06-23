@@ -2,7 +2,7 @@
 title: "Inspirational digital products, figures, and other witty & beautiful & fun things that make me want to work harder and become a better web developer"
 date: "2020-06-23"
 ---
-Things that keep me going & People I look up to.
+People & Things that keep me going.
 
 ### Websites
 [Make Noise Co.](http://www.makenoisemusic.com/)
@@ -11,16 +11,22 @@ Things that keep me going & People I look up to.
 [WE AND THE COLOR](https://weandthecolor.com/)
 
 
-### Web Application
+### Web Applications
 [Six Degrees Of Kayne West](https://sixdegreesofkanyewest.com/)
 
 
-### Web Platform
+### Web Platforms
 [Glitch](https://glitch.com/)
 
 
-### Activists, writers, 
+### Companies
+[Ayogo](https://ayogo.com/)
+[Keela](https://www.keela.co/)
+
+
+### Activists, writers, creators
 [Edward Snowden](https://twitter.com/snowden)
 [Chelsea Manning](https://twitter.com/xychelsea)
 [Laura Poitras](https://theintercept.com/staff/laura-poitras/)
+[Rebecca Sugar](https://twitter.com/rebeccasugar)
 My mom - though she doesn't have a edgy website nor twitter account
