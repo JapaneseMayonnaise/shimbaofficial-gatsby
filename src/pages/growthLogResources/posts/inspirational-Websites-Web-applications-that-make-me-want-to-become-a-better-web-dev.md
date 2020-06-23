@@ -22,12 +22,6 @@ People & Things that keep me going.
 [Glitch](https://glitch.com/)
 
 
-### Companies
-[Ayogo](https://ayogo.com/)
-
-[Keela](https://www.keela.co/)
-
-
 ### Activists, writers, creators
 [Edward Snowden](https://twitter.com/snowden)
 
@@ -37,4 +31,10 @@ People & Things that keep me going.
 
 [Rebecca Sugar](https://twitter.com/rebeccasugar)
 
+
 My mom - though she doesn't have a edgy website nor twitter account
+
+### Companies
+[Ayogo](https://ayogo.com/)
+
+[Keela](https://www.keela.co/)
