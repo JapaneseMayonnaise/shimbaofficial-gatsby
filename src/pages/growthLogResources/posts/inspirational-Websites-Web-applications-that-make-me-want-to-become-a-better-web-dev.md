@@ -35,17 +35,25 @@ People & Things that keep me going.
 
 
 ## Activists & Creators
+[Edward Snowden](https://twitter.com/snowden)
+
+[Eva Galperin](https://twitter.com/evacide)
+
 [Dr. Maya Angelou](https://www.mayaangelou.com/)
 
 [Rebecca Sugar](https://twitter.com/rebeccasugar)
-
-[Edward Snowden](https://twitter.com/snowden)
 
 [Viktor Belmont](https://www.huffpost.com/entry/an-interview-with-awardwi_b_7684498)
 
 [Chelsea Manning](https://twitter.com/xychelsea)
 
 [Laura Poitras](https://theintercept.com/staff/laura-poitras/)
+
+[Grace Kelly & Leo Pellegrino](https://www.youtube.com/watch?v=C0fj6Bwrp6M)
+
+[Limes](https://limes3.bandcamp.com/)
+
+[Saib](https://saibeats.bandcamp.com/)
 
 [Logic](https://www.youtube.com/channel/UCYtWSZWHYPbmwsh2CEUyMrQ)
 
