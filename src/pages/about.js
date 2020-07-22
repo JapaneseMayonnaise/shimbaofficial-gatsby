@@ -62,7 +62,7 @@ export default function About({data}) {
                            <br />                           
                            <br />                           
                            As a trans person of colour, I consciously strive to be a safer person to work with and
-                           create a safer workplace for the fellow queer/poc/people with disabilities.
+                           create a safer workplace for the fellow queer/bipoc/people with disabilities.
                            Although things have improved for us these past several years as mentioned in
                            <a href="https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/"> here </a> 
                            and <a href="https://www.codethink.co.uk/articles/2019/acceptance-strife-and-progress-in-the-lgbtiq-and-open-source-communities/"> here</a>,
