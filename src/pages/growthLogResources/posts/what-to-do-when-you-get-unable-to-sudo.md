@@ -1,5 +1,5 @@
 ---
-title: "What to do when your machine is 'unable to resolve host MACHINE_NAME: Name or service not known'"
+title: "What to do when sudo won't work"
 date: "2020-09-25"
 ---
 
