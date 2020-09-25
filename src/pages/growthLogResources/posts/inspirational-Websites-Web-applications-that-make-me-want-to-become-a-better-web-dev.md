@@ -57,6 +57,7 @@ People & Things that keep me going.
 
 [Logic](https://www.youtube.com/channel/UCYtWSZWHYPbmwsh2CEUyMrQ)
 
+[Vulfpeck](https://vulfpeck.bandcamp.com/)
 
 ## Organizations & Companies
 [Free Geek Vancouver](https://www.freegeekvancouver.org/)

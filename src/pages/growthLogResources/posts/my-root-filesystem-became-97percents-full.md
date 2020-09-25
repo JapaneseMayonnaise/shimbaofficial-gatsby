@@ -6,7 +6,7 @@ date: "2020-04-13"
 
  I had no choice but to go in BestBuy <del>filled with festive muggles</del> and make a quick decision on a new laptop because Hossein, [macbook repairer I trusted](http://macplace.ca/) did say "Next time this breaks that'll be the time you need a new machine, man." Everyone else seemed so happy and excited because they were probably there to get christmas presents, whereas I was feeling so dead inside, probably looking dead outside as well.
 
- Anyway, that's how I unexpectedly ended up getting myself a pricey christmas present, ASUS VivoBook, and this was the beginning of my operating system learning journey.
+ Anyway, that's how I unexpectedly ended up getting myself a pricey christmas present, ASUS VivoBook, and this was the beginning of my operating system learning journey - specifically with Pop!OS. Only after 3 months my /root became 97% full, which is too quick, and here is how I resolved the issue.
 
 ## Contents
 - My laptop spec
