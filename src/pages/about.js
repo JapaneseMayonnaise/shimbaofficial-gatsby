@@ -42,7 +42,7 @@ export default function About({data}) {
                            Nice to e-meet you, I'm Elliot Shimba. 
                         </h1>
                         <h2 className={`title is-size-2 is-size-4-touch ${style.textVerticalSpacing}`}>
-                           I'm a Toronto-based full-stack web developer, <br />
+                           I'm a Berlin-based full-stack web developer, <br />
                            a strong advocate of diversity in tech community, <br />
                            and an avid sourdough-baker.
                         </h2>
@@ -57,8 +57,8 @@ export default function About({data}) {
                      />
                      <Description>
                         <h2 className="is-size-4 is-size-5-touch">
-                           I enjoy crafting beautiful applications, especially in a cohesive team, using JavaScript and JS-fueled/related tools 
-                           such as React.js, Node.js, TypeScript, Redux.js, Gatsby, PostgreSQL, MongoDB, Jest, Git and more. 
+                           I enjoy crafting beautiful applications, especially in a cohesive team, using TypeScript and JS-fueled/related tools 
+                           such as Vue.js, React.js, Vuex.js, Redux.js, Node.js, Gatsby, PostgreSQL, MongoDB, Jest, Cypress, Git and more. 
                            <br />                           
                            <br />                           
                            As a trans person of colour, I consciously strive to be a safer person to work with and
