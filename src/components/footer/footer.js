@@ -7,7 +7,7 @@ export default function Footer() {
       <footer className={`footer ${style.footerBackground}`}>
          <div className="content has-text-centered">
             <p className="has-text-white  has-text-weight-semibold">
-               ELLIOT SHIMBA &nbsp;&copy;&nbsp; 2020
+               ELLIOT SHIMBA &nbsp;&copy;&nbsp; 2020-2022
             </p>
             <hr className={style.hr} /> 
             <a href="https://bulma.io">

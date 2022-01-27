@@ -1,5 +1,5 @@
 ---
-title: "Inspirational digital products, figures, and other witty & beautiful & fun things that make me want to work harder and become a better web developer"
+title: "Inspirational digital products, figures, and other witty & beautiful & fun things that make me want to work harder and become a better frontend engineer"
 date: "2020-06-23"
 ---
 People & Things that keep me going.

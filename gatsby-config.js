@@ -2,8 +2,7 @@ module.exports = {
   siteMetadata: 
   {
     title: `Elliot Shimba`,
-    description: `A somewhat-intermittent record of a queer & poc full-stack web developer's journey mainly focus on 
-                  web development, operating systems, queer & poc inclusion in tech`,
+    description: `A somewhat-intermittent record of a queer & poc frontend engineer's journey`,
     author: `Elliot Shimba`,
   },
   plugins: 
