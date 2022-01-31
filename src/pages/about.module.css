@@ -3,16 +3,20 @@
 } */
 
 .textVerticalSpacing {
-   line-height: 150%;
+  line-height: 150%;
 }
 
 .disc {
-      list-style-type: disc;
-      list-style-position: inside;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.contact {
+  margin-top: 15px;
 }
 
 @media screen and (max-width: 434px) {
-   .h1Margin {
-      margin-bottom: 4px !important;
-   }
- } 
+  .h1Margin {
+    margin-bottom: 4px !important;
+  }
+}

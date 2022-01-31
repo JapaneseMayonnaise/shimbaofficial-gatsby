@@ -49,8 +49,8 @@ export default function Home({ data }) {
             </Description>
           </div>
           {/* top column */}
-          {/* the 3 lower columns */}
-          <div className="columns is-multiline">
+          {/* the 2 lower columns */}
+          <div className="columns is-multiline is-vcentered">
             <Image
               fluid={data.secondImage.childImageSharp.fluid}
               alt="shimba is smiling, looking to the right"
@@ -60,6 +60,10 @@ export default function Home({ data }) {
                 I enjoy crafting beautiful applications using TypeScript and
                 JS-fueled/related tools such as Vue.js, React.js, Vuex.js,
                 Redux.js, Nuxt, Gatsby, Jest, Cypress, Git and more.
+                <br />
+                <br />
+                I've been so lucky to do so at
+                <a href="https://400f.jp/"> 400 franc</a>.
                 <br />
                 <br />
                 As a trans person of colour, I consciously strive to be a safe
@@ -79,17 +83,18 @@ export default function Home({ data }) {
             <Description>
               <h2 className="is-size-4 is-size-5-touch">
                 Besides the things mentioned above, my interest includes
-                <br />
               </h2>
-              <ul className={`is-size-4 is-size-5-touch ${style.disc}`}>
-                <li>Blockchain</li>
-                <li>WEB3</li>
-                <li>Operating systems</li>
-                <li>FOSS</li>
-                <li>Online privacy</li>
-                <li>Net neutrality</li>
-              </ul>
-              <h2 className="is-size-4 is-size-5-touch">
+              <div>
+                <ul className={`is-size-4 is-size-5-touch ${style.disc}`}>
+                  <li>Blockchain</li>
+                  <li>web3.0</li>
+                  <li>Operating systems</li>
+                  <li>FOSS</li>
+                  <li>Online privacy</li>
+                  <li>Net neutrality</li>
+                </ul>
+              </div>
+              <h2 className={`is-size-4 is-size-5-touch ${style.contact}`}>
                 To get in touch, you can
                 <a href="mailto:shimba@posteo.net"> email me </a>
                 or message me on
