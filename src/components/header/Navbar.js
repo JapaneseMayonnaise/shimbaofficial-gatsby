@@ -56,21 +56,12 @@ class Navbar extends React.Component {
           }`}
         >
           <div className="navbar-start">
-            {/* <Link to="/about/" className="navbar-item"> 
-                     About
-                  </Link> */}
-            <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link">Growth Log</a>
-              <div className="navbar-dropdown is-boxed">
-                <Link to="/technicalGrowthLog/" className="navbar-item">
-                  Technical &nbsp;&gt;&nbsp;&nbsp; Programming &nbsp;&amp;&nbsp;
-                  Operating Systems
-                </Link>
-                <Link to="/personalGrowthLog/" className="navbar-item">
-                  Personal &nbsp;&nbsp;&gt;&nbsp;&nbsp; Everything Else
-                </Link>
-              </div>
-            </div>
+            <Link to="/technicalGrowthLog/" className="navbar-item">
+              Growth Log
+            </Link>
+            <Link to="/portfolio/" className="navbar-item">
+              Portfolio
+            </Link>
           </div>
           <div className="navbar-end">
             <div className="navbar-item">
