@@ -8,7 +8,7 @@ export default function Layout({ children }) {
     <div>
       <Header className="has-navbar-fixed-top" />
       {children}
-      <Footer className={`${style.footerSticky}`} />
+      <Footer />
     </div>
   )
 }
