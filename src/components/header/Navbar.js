@@ -59,6 +59,9 @@ class Navbar extends React.Component {
             <Link to="/technicalGrowthLog/" className="navbar-item">
               Growth Log
             </Link>
+            <Link to="/portfolio/" className="navbar-item">
+              Portfolio
+            </Link>
           </div>
           <div className="navbar-end">
             <div className="navbar-item">
