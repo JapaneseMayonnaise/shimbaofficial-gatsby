@@ -1,31 +1,29 @@
-import React from 'react'
+import React from "react"
 import SEO from "../components/seo"
-import { graphql, Link } from 'gatsby'
-import Layout from '../components/layout'
+import { graphql, Link } from "gatsby"
+import Layout from "../components/layout/layout"
 import "../../sass/mystyles.scss"
-import style from './growthLogResources/growthLog.module.css' 
+import style from "./growthLogResources/growthLog.module.css"
 
-export default function PersonalGrowthLog ({data}) {
-   return (
-      <Layout>
-        <SEO title="Personal Growth Log" />
-        <section className={`hero is-primary ${style.marginBottom}`}>
-          <div className="hero-body">
-            <div className="container">
-              <h1 className="title is-size-3-desktop is-size-4-touch">
-                Personal Growth Log
-              </h1>
-              <h2 className="subtitle">
-              {/* { data.allMarkdownRemark.totalCount } posts */}
-              0 post
-              </h2>
-            </div>
-          </div>
-        </section>
-        <section className="section">
+export default function PersonalGrowthLog({ data }) {
+  return (
+    <Layout>
+      <SEO title="Personal Growth Log" />
+      <section className={`hero is-primary ${style.marginBottom}`}>
+        <div className="hero-body">
           <div className="container">
-            
-            {/* {data.allMarkdownRemark.edges.map(({ node }) => 
+            <h1 className="title is-size-3-desktop is-size-4-touch">
+              Personal Growth Log
+            </h1>
+            <h2 className="subtitle">
+              {/* { data.allMarkdownRemark.totalCount } posts */}0 post
+            </h2>
+          </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          {/* {data.allMarkdownRemark.edges.map(({ node }) => 
               (
                 <div key={node.id}>
                   <article>
@@ -45,30 +43,30 @@ export default function PersonalGrowthLog ({data}) {
                 </div>
               )
             )} */}
-          </div>
-        </section>
+        </div>
+      </section>
     </Layout>
   )
 }
 
 export const query = graphql`
-query {
-  allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
-    edges {
-      node {
-        frontmatter {
-          date
-          title
+  query {
+    allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
+      edges {
+        node {
+          frontmatter {
+            date
+            title
+          }
+          fields {
+            slug
+          }
+          excerpt
+          timeToRead
+          html
         }
-        fields {
-          slug
-        }
-        excerpt
-        timeToRead
-        html
       }
+      totalCount
     }
-    totalCount
   }
-}
 `

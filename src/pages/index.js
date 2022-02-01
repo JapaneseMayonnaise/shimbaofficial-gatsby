@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import SEO from "../components/seo"
-import Layout from "../components/layout"
+import Layout from "../components/layout/layout"
 import style from "./about.module.css"
 import "../../sass/mystyles.scss"
 

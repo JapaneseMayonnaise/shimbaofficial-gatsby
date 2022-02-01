@@ -70,14 +70,14 @@ class Navbar extends React.Component {
                 href="https://www.linkedin.com/in/eshimba/"
                 iconName={faLinkedinIn}
               />
-              <Icon
-                href="https://medium.com/@elliotshimba"
-                iconName={faMediumM}
-              />
               <Icon href="https://dev.to/drcardamom" iconName={faDev} />
               <Icon
                 href="https://stackoverflow.com/users/11227880/shimba?tab=profile"
                 iconName={faStackOverflow}
+              />
+              <Icon
+                href="https://medium.com/@elliotshimba"
+                iconName={faMediumM}
               />
             </div>
           </div>
