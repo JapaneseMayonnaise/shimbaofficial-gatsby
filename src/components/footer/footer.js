@@ -5,7 +5,7 @@ import style from "./footer.module.css"
 export default function Footer() {
   return (
     <footer
-      className={`footer ${style.footerBackground} ${style.footerMargin}`}
+      className={`footer ${style.footerBackground} ${style.footerMargin} ${style.footerSticky}`}
     >
       <div className="content has-text-centered">
         <p className="has-text-white  has-text-weight-semibold">
