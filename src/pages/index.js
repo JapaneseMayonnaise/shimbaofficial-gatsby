@@ -43,8 +43,8 @@ export default function Home({ data }) {
                 className={`title is-size-2 is-size-4-touch ${style.textVerticalSpacing}`}
               >
                 I'm a Berlin-based frontend engineer, <br />
-                a strong advocate of diversity in tech community, <br />
-                and an avid sourdough-baker.
+                an advocate for diversity in the tech community, <br />
+                and an avid sourdough baker.
               </h2>
             </Description>
           </div>
@@ -58,9 +58,10 @@ export default function Home({ data }) {
             <Description>
               <h2 className="is-size-4 is-size-5-touch">
                 I enjoy working with web applications using the latest tech
-                stack in a remote and cohesive team. My current focus is
-                frontend - although there was a time where I was writing backend
-                appplications in Golang as well and I liked it.
+                stack in a remote and cohesive team. While I currently focus on
+                frontend, I used to write backend applications in Golang, which
+                I also enjoyed.
+                <br />
                 <br />
                 I'm currently a part of
                 <a href="https://400f.jp/"> 400 franc</a>, a fully-remote
@@ -68,7 +69,7 @@ export default function Home({ data }) {
                 <br />
                 <br />
                 As a trans person of colour, I consciously strive to be a safe
-                person to work with and create a safer workplace for fellow
+                person to work with and to create a safer workplace for fellow
                 queers/bipocs/people with disabilities 🏳️‍⚧️🏳️‍🌈
               </h2>
             </Description>
@@ -83,7 +84,7 @@ export default function Home({ data }) {
             </Image>
             <Description>
               <h2 className={`is-size-4 is-size-5-touch`}>
-                My tech stack includes
+                My tech stack includes:
               </h2>
               <div>
                 <ul className={`is-size-4 is-size-5-touch ${style.disc}`}>
