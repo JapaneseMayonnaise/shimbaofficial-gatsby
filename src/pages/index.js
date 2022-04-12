@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import SEO from "../components/seo"
 import Layout from "../components/layout/layout"
-import style from "./about.module.css"
+import style from "./index.module.css"
 import "../../sass/mystyles.scss"
 
 export default function Home({ data }) {
@@ -37,7 +37,7 @@ export default function Home({ data }) {
               <h1
                 className={`title is-size-2 is-size-4-touch ${style.h1Margin}`}
               >
-                Nice to e-meet you, I'm Elliot Shimba.
+                Nice to e-meet you, I'm Elliot Shimba 👋🏻
               </h1>
               <h2
                 className={`title is-size-2 is-size-4-touch ${style.textVerticalSpacing}`}
@@ -57,18 +57,19 @@ export default function Home({ data }) {
             />
             <Description>
               <h2 className="is-size-4 is-size-5-touch">
-                I enjoy crafting beautiful applications using TypeScript and
-                JS-fueled/related tools such as Vue.js, React.js, Vuex.js,
-                Redux.js, Nuxt, Gatsby, Jest, Cypress, Git and more.
+                I enjoy working with web applications using the latest tech
+                stack in a remote and cohesive team. My current focus is
+                frontend - although there was a time where I was writing backend
+                appplications in Golang as well and I liked it.
                 <br />
-                <br />
-                I've been so lucky to do so at
-                <a href="https://400f.jp/"> 400 franc</a>.
+                I'm currently a part of
+                <a href="https://400f.jp/"> 400 franc</a>, a fully-remote
+                startup of 15ish wonderfully funny and talented people.
                 <br />
                 <br />
                 As a trans person of colour, I consciously strive to be a safe
                 person to work with and create a safer workplace for fellow
-                queers/bipocs/people with disabilities.
+                queers/bipocs/people with disabilities 🏳️‍⚧️🏳️‍🌈
               </h2>
             </Description>
             <Image
@@ -81,17 +82,17 @@ export default function Home({ data }) {
               </small>
             </Image>
             <Description>
-              <h2 className="is-size-4 is-size-5-touch">
-                Besides the things mentioned above, my interest includes
+              <h2 className={`is-size-4 is-size-5-touch`}>
+                My tech stack includes
               </h2>
               <div>
                 <ul className={`is-size-4 is-size-5-touch ${style.disc}`}>
-                  <li>Blockchain</li>
-                  <li>web3.0</li>
-                  <li>Operating systems</li>
-                  <li>FOSS</li>
-                  <li>Online privacy</li>
-                  <li>Net neutrality</li>
+                  <li>TypeScript</li>
+                  <li>HTML, CSS(SCSS), JavaScript</li>
+                  <li>Vue.js, Vuex</li>
+                  <li>React.js, Redux</li>
+                  <li>GraphQL, RESTful API</li>
+                  <li>Testing - Jest, Cypress</li>
                 </ul>
               </div>
               <h2 className={`is-size-4 is-size-5-touch ${style.contact}`}>
